@@ -1,0 +1,660 @@
+{
+  "units": [
+    {
+      "id": "shapeshifters",
+      "title": "Shapeshifters",
+      "subtitle": "Words that woke up meaning something else",
+      "emblem": "unit_shapeshifters",
+      "words": ["nice", "silly", "clue", "awful", "naughty", "deer", "girl", "bully"]
+    },
+    {
+      "id": "myth",
+      "title": "Gods & Monsters",
+      "subtitle": "Myths hiding in everyday English",
+      "emblem": "unit_myth",
+      "words": ["panic", "jovial", "mercurial", "tantalize", "narcissism", "echo", "nemesis", "cereal"]
+    },
+    {
+      "id": "spice",
+      "title": "The Spice Road",
+      "subtitle": "Treasures carried west from Arabic, Persian and Sanskrit",
+      "emblem": "unit_spice",
+      "words": ["algebra", "algorithm", "alcohol", "checkmate", "orange", "jungle", "shampoo", "candy"]
+    },
+    {
+      "id": "norse",
+      "title": "Raiders' Hoard",
+      "subtitle": "What the Vikings left in our mouths",
+      "emblem": "unit_norse",
+      "words": ["berserk", "ransack", "sky", "egg", "they", "window", "husband", "law"]
+    },
+    {
+      "id": "latin",
+      "title": "Body of Latin",
+      "subtitle": "Mice, hearths and white togas",
+      "emblem": "unit_latin",
+      "words": ["muscle", "sinister", "dexterous", "focus", "candidate", "salary", "companion", "supercilious"]
+    }
+  ],
+  "words": [
+    {
+      "id": "nice", "word": "nice", "pron": "nyse", "pos": "adjective",
+      "def": "pleasant, agreeable, kind",
+      "lit": "not knowing",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "nescius", "gloss": "ignorant, not knowing", "date": "classical"},
+        {"lang": "Old French", "form": "nice", "gloss": "simple, silly, foolish", "date": "1100s"},
+        {"lang": "Middle English", "form": "nice", "gloss": "foolish, then fussy, then precise", "date": "c. 1300"},
+        {"lang": "English", "form": "nice", "gloss": "pleasant, agreeable", "date": "1700s"}
+      ],
+      "parts": [{"p": "ne-", "m": "not"}, {"p": "sci-", "m": "to know"}],
+      "story": "For centuries, calling someone nice was an insult — it meant foolish. The word wandered through 'shy', 'fussy' and 'precise' before settling on 'pleasant' in the 1700s.",
+      "example": "It was nice of her to save me a seat.",
+      "related": ["science", "conscious", "omniscient"]
+    },
+    {
+      "id": "silly", "word": "silly", "pron": "SIL-ee", "pos": "adjective",
+      "def": "lacking good sense; foolish",
+      "lit": "blessed, happy",
+      "origin": "Old English",
+      "journey": [
+        {"lang": "Proto-Germanic", "form": "*sēligaz", "gloss": "happy, fortunate", "date": "prehistoric"},
+        {"lang": "Old English", "form": "sǣlig", "gloss": "blessed, happy", "date": "before 1100"},
+        {"lang": "Middle English", "form": "seli", "gloss": "innocent, pitiable, feeble", "date": "1200s"},
+        {"lang": "English", "form": "silly", "gloss": "foolish", "date": "1570s"}
+      ],
+      "parts": [{"p": "sǣl", "m": "happiness, good fortune"}, {"p": "-ig", "m": "full of"}],
+      "story": "Silly once meant blessed — German selig still does. The blessed were innocent, the innocent were pitiable, and the pitiable came to look simple-minded.",
+      "example": "I felt silly wearing a costume to a dinner party.",
+      "related": ["German selig (blessed)"]
+    },
+    {
+      "id": "clue", "word": "clue", "pron": "kloo", "pos": "noun",
+      "def": "a fact or object that helps solve a mystery",
+      "lit": "a ball of thread",
+      "origin": "Old English",
+      "journey": [
+        {"lang": "Old English", "form": "cliwen", "gloss": "ball of thread or yarn", "date": "before 1100"},
+        {"lang": "Middle English", "form": "clewe", "gloss": "ball of thread", "date": "1300s"},
+        {"lang": "English", "form": "clue", "gloss": "something that guides you through a puzzle", "date": "1620s"}
+      ],
+      "parts": [],
+      "story": "In Greek myth, Theseus unspooled a ball of thread to find his way out of the Minotaur's labyrinth. A 'clew' became anything that leads you through a tangle — and every detective since has been following the thread.",
+      "example": "The muddy footprint was the only clue.",
+      "related": ["clew (a sail's corner)"]
+    },
+    {
+      "id": "awful", "word": "awful", "pron": "AW-ful", "pos": "adjective",
+      "def": "very bad or unpleasant",
+      "lit": "full of awe",
+      "origin": "Old English",
+      "journey": [
+        {"lang": "Old English", "form": "egefull", "gloss": "terrifying", "date": "before 1100"},
+        {"lang": "Middle English", "form": "aweful", "gloss": "inspiring awe, worthy of reverence", "date": "1200s"},
+        {"lang": "English", "form": "awful", "gloss": "very bad, exceedingly", "date": "1800s"}
+      ],
+      "parts": [{"p": "awe", "m": "dread, reverence"}, {"p": "-ful", "m": "full of"}],
+      "story": "Awful and awesome began as near-twins, both 'filled with awe'. Then they split up: one drifted to 'terrible', the other to 'terrific'.",
+      "example": "The traffic this morning was awful.",
+      "related": ["awe", "awesome"]
+    },
+    {
+      "id": "naughty", "word": "naughty", "pron": "NAW-tee", "pos": "adjective",
+      "def": "badly behaved, disobedient (usually of children)",
+      "lit": "having nothing",
+      "origin": "Old English",
+      "journey": [
+        {"lang": "Old English", "form": "nāwiht", "gloss": "nothing, no thing", "date": "before 1100"},
+        {"lang": "Middle English", "form": "noughty", "gloss": "needy, poor", "date": "late 1300s"},
+        {"lang": "English", "form": "naughty", "gloss": "wicked, morally bad", "date": "1520s"},
+        {"lang": "English", "form": "naughty", "gloss": "mischievous (of children)", "date": "1630s"}
+      ],
+      "parts": [{"p": "naught", "m": "nothing"}, {"p": "-y", "m": "having"}],
+      "story": "To be naughty was to have naught — to be poor. Poverty was unfairly linked with wickedness, and the word slid from 'needy' to 'evil' before softening into the scolding we give children.",
+      "example": "The naughty puppy chewed my shoes.",
+      "related": ["naught", "nought", "not"]
+    },
+    {
+      "id": "deer", "word": "deer", "pron": "deer", "pos": "noun",
+      "def": "a hoofed animal, the males of which usually have antlers",
+      "lit": "any animal",
+      "origin": "Old English",
+      "journey": [
+        {"lang": "Proto-Germanic", "form": "*deuzą", "gloss": "animal", "date": "prehistoric"},
+        {"lang": "Old English", "form": "dēor", "gloss": "animal, wild beast", "date": "before 1100"},
+        {"lang": "Middle English", "form": "der", "gloss": "animal; especially the hunted kind", "date": "1300s"},
+        {"lang": "English", "form": "deer", "gloss": "the antlered animal only", "date": "1400s on"}
+      ],
+      "parts": [],
+      "story": "Deer once meant any animal at all — German Tier still does. Shakespeare's King Lear mentions 'mice and rats, and such small deer'. Once 'beast' and 'animal' arrived from French and Latin, deer shrank to the antlered one.",
+      "example": "A deer stepped out of the mist at dawn.",
+      "related": ["German Tier (animal)", "Dutch dier"]
+    },
+    {
+      "id": "girl", "word": "girl", "pron": "gurl", "pos": "noun",
+      "def": "a female child or young woman",
+      "lit": "a child of either sex",
+      "origin": "Middle English",
+      "journey": [
+        {"lang": "Middle English", "form": "gurle", "gloss": "a child of either sex", "date": "c. 1300"},
+        {"lang": "Middle English", "form": "girle", "gloss": "a female child", "date": "late 1300s"},
+        {"lang": "English", "form": "girl", "gloss": "a young woman", "date": "1500s on"}
+      ],
+      "parts": [],
+      "story": "In Chaucer's day a 'knave girl' was a boy: girl simply meant a youngster. Where the word came from is still a genuine mystery — no one has found its ancestor.",
+      "example": "The girl taught herself to juggle.",
+      "related": []
+    },
+    {
+      "id": "bully", "word": "bully", "pron": "BUL-ee", "pos": "noun",
+      "def": "someone who intimidates or harms those who are weaker",
+      "lit": "sweetheart",
+      "origin": "Dutch",
+      "journey": [
+        {"lang": "Middle Dutch", "form": "boele", "gloss": "lover, brother", "date": "1300s"},
+        {"lang": "English", "form": "bully", "gloss": "sweetheart, darling", "date": "1530s"},
+        {"lang": "English", "form": "bully", "gloss": "fine fellow, good friend", "date": "1600s"},
+        {"lang": "English", "form": "bully", "gloss": "blustering tormentor of the weak", "date": "late 1600s"}
+      ],
+      "parts": [],
+      "story": "A bully was once your darling. It became a hearty 'fine fellow', then a swaggering one, then a thug. 'Bully for you!' is a fossil of the friendly middle stage.",
+      "example": "She stood up to the playground bully.",
+      "related": ["bully for you!", "Dutch boel"]
+    },
+
+    {
+      "id": "panic", "word": "panic", "pron": "PAN-ik", "pos": "noun",
+      "def": "sudden, overwhelming fear",
+      "lit": "of Pan",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "panikos", "gloss": "of Pan, caused by Pan", "date": "classical"},
+        {"lang": "French", "form": "panique", "gloss": "sudden groundless terror", "date": "1500s"},
+        {"lang": "English", "form": "panic", "gloss": "sudden fear", "date": "1600s"}
+      ],
+      "parts": [{"p": "Pan", "m": "the goat-legged god of the wild"}, {"p": "-ic", "m": "relating to"}],
+      "story": "Pan, god of shepherds and lonely hillsides, was said to let out sudden shrieks that sent flocks — and whole armies — fleeing in terror. Any fear with no visible cause was his doing.",
+      "example": "A wave of panic swept through the crowd.",
+      "related": ["panicky", "Pan pipes"]
+    },
+    {
+      "id": "jovial", "word": "jovial", "pron": "JOH-vee-ul", "pos": "adjective",
+      "def": "cheerful and friendly",
+      "lit": "born under Jupiter",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "Jovialis", "gloss": "of Jupiter (Jove)", "date": "classical"},
+        {"lang": "Italian", "form": "gioviale", "gloss": "born under the planet Jupiter", "date": "medieval"},
+        {"lang": "French", "form": "jovial", "gloss": "merry", "date": "1500s"},
+        {"lang": "English", "form": "jovial", "gloss": "good-humoured", "date": "1590s"}
+      ],
+      "parts": [{"p": "Jov-", "m": "Jupiter, king of the gods"}, {"p": "-ial", "m": "relating to"}],
+      "story": "Astrologers held that people born under the planet Jupiter were happy and generous. Your jovial uncle is, etymologically, a little bit of a king of the gods.",
+      "example": "The jovial innkeeper knew every guest by name.",
+      "related": ["Jove", "Jupiter"]
+    },
+    {
+      "id": "mercurial", "word": "mercurial", "pron": "mer-KYOOR-ee-ul", "pos": "adjective",
+      "def": "subject to sudden, unpredictable changes of mood",
+      "lit": "of Mercury",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "mercurialis", "gloss": "of Mercury", "date": "classical"},
+        {"lang": "English", "form": "mercurial", "gloss": "of the planet Mercury", "date": "late 1300s"},
+        {"lang": "English", "form": "mercurial", "gloss": "quick-witted, volatile, changeable", "date": "1640s"}
+      ],
+      "parts": [{"p": "Mercur-", "m": "Mercury, the swift messenger god"}, {"p": "-ial", "m": "relating to"}],
+      "story": "Mercury was the fleet-footed messenger god, and the metal named after him — quicksilver — skitters about unpredictably. Those born under his planet were thought quick, clever and changeable.",
+      "example": "The mercurial chef could be charming one minute and furious the next.",
+      "related": ["merchant", "commerce", "mercury"]
+    },
+    {
+      "id": "tantalize", "word": "tantalize", "pron": "TAN-tuh-lyze", "pos": "verb",
+      "def": "to tease with something desirable that stays out of reach",
+      "lit": "to treat like Tantalus",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "Tantalos", "gloss": "a mythical king of Lydia", "date": "classical"},
+        {"lang": "Latin", "form": "Tantalus", "gloss": "the same king", "date": "classical"},
+        {"lang": "English", "form": "tantalize", "gloss": "to torment with the unreachable", "date": "1590s"}
+      ],
+      "parts": [{"p": "Tantal-", "m": "Tantalus"}, {"p": "-ize", "m": "to treat like"}],
+      "story": "For his crimes against the gods, Tantalus was made to stand in a pool beneath a fruit tree. Each time he stooped to drink, the water drained away; each time he reached for fruit, the branch rose.",
+      "example": "The smell of baking bread tantalized us all afternoon.",
+      "related": ["tantalum (a metal that won't absorb acid)"]
+    },
+    {
+      "id": "narcissism", "word": "narcissism", "pron": "NAR-sih-siz-um", "pos": "noun",
+      "def": "excessive interest in oneself and one's own appearance",
+      "lit": "Narcissus-ism",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "Narkissos", "gloss": "a beautiful youth; also the flower", "date": "classical"},
+        {"lang": "German", "form": "Narzissismus", "gloss": "a psychological term", "date": "1899"},
+        {"lang": "English", "form": "narcissism", "gloss": "self-obsession", "date": "early 1900s"}
+      ],
+      "parts": [{"p": "Narciss-", "m": "Narcissus"}, {"p": "-ism", "m": "condition"}],
+      "story": "Narcissus spurned everyone who loved him, until he caught sight of his own reflection in a pool and couldn't look away. He wasted away there, and a flower grew where he had lain.",
+      "example": "His endless selfies bordered on narcissism.",
+      "related": ["narcissus (daffodil)", "narcissist"]
+    },
+    {
+      "id": "echo", "word": "echo", "pron": "EK-oh", "pos": "noun",
+      "def": "a sound reflected back to the listener",
+      "lit": "sound",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "ēkhō", "gloss": "sound, echo; a nymph", "date": "classical"},
+        {"lang": "Latin", "form": "echo", "gloss": "echo", "date": "classical"},
+        {"lang": "English", "form": "echo", "gloss": "reflected sound", "date": "late 1300s"}
+      ],
+      "parts": [],
+      "story": "The nymph Echo talked so much that the goddess Hera cursed her to speak only the last words said to her. Pining for Narcissus, she faded until only her voice remained.",
+      "example": "Our voices echoed around the empty hall.",
+      "related": ["echolocation", "catechism"]
+    },
+    {
+      "id": "nemesis", "word": "nemesis", "pron": "NEM-uh-sis", "pos": "noun",
+      "def": "a long-standing rival; a downfall that is deserved",
+      "lit": "dealing out what's due",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "nemein", "gloss": "to allot, give what is due", "date": "classical"},
+        {"lang": "Ancient Greek", "form": "nemesis", "gloss": "righteous anger; the goddess of retribution", "date": "classical"},
+        {"lang": "English", "form": "nemesis", "gloss": "agent of downfall; arch-rival", "date": "1570s"}
+      ],
+      "parts": [{"p": "nem-", "m": "to allot, distribute"}, {"p": "-esis", "m": "the act of"}],
+      "story": "Nemesis was the goddess who made sure the arrogant got exactly what they deserved. The same root, 'to allot', gave us nomad — herders who roamed to share out pasture.",
+      "example": "The tortoise proved to be the hare's nemesis.",
+      "related": ["nomad", "economy (-nomy)"]
+    },
+    {
+      "id": "cereal", "word": "cereal", "pron": "SEER-ee-ul", "pos": "noun",
+      "def": "a grain crop; a breakfast food made from grain",
+      "lit": "of Ceres",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "Cerealis", "gloss": "of Ceres, goddess of farming", "date": "classical"},
+        {"lang": "English", "form": "cereal", "gloss": "of edible grain", "date": "1832"},
+        {"lang": "American English", "form": "cereal", "gloss": "breakfast food", "date": "1899"}
+      ],
+      "parts": [{"p": "Cere-", "m": "Ceres, goddess of grain"}, {"p": "-al", "m": "relating to"}],
+      "story": "Every bowl of breakfast cereal is a small offering to Ceres, the Roman goddess of harvests. Her name may share an ancient root meaning 'to grow' with create and crescent.",
+      "example": "He poured a second bowl of cereal.",
+      "related": ["create", "crescent", "increase"]
+    },
+
+    {
+      "id": "algebra", "word": "algebra", "pron": "AL-juh-bruh", "pos": "noun",
+      "def": "mathematics using letters and symbols for unknown numbers",
+      "lit": "the reuniting of broken parts",
+      "origin": "Arabic",
+      "journey": [
+        {"lang": "Arabic", "form": "al-jabr", "gloss": "the reuniting of broken parts", "date": "c. 820"},
+        {"lang": "Medieval Latin", "form": "algebra", "gloss": "equation-solving", "date": "1100s"},
+        {"lang": "English", "form": "algebra", "gloss": "bone-setting!", "date": "1500s"},
+        {"lang": "English", "form": "algebra", "gloss": "the branch of mathematics", "date": "1550s"}
+      ],
+      "parts": [{"p": "al-", "m": "the"}, {"p": "jabr", "m": "restoring, setting broken parts"}],
+      "story": "The word comes from the title of a 9th-century Baghdad textbook by al-Khwārizmī. Jabr meant restoring — in medieval Spain and England, 'algebra' could also mean setting broken bones.",
+      "example": "In algebra, x is whatever you need it to be.",
+      "related": ["algorithm"]
+    },
+    {
+      "id": "algorithm", "word": "algorithm", "pron": "AL-guh-rith-um", "pos": "noun",
+      "def": "a step-by-step procedure for solving a problem",
+      "lit": "the man from Khwarazm",
+      "origin": "Arabic",
+      "journey": [
+        {"lang": "Arabic", "form": "al-Khwārizmī", "gloss": "'the one from Khwarazm', a Persian scholar", "date": "c. 820"},
+        {"lang": "Medieval Latin", "form": "algorismus", "gloss": "the decimal number system", "date": "1100s"},
+        {"lang": "Middle English", "form": "algorism", "gloss": "arithmetic with Arabic numerals", "date": "c. 1200"},
+        {"lang": "English", "form": "algorithm", "gloss": "a procedure (reshaped by Greek arithmos, 'number')", "date": "1690s"}
+      ],
+      "parts": [],
+      "story": "Muhammad ibn Musa al-Khwārizmī wrote the book that taught Europe Hindu-Arabic numerals. Latin translators turned his name into a word for calculating — so every algorithm is named after a person from Central Asia.",
+      "example": "The algorithm sorts a million names in a second.",
+      "related": ["algebra", "arithmetic"]
+    },
+    {
+      "id": "alcohol", "word": "alcohol", "pron": "AL-kuh-hol", "pos": "noun",
+      "def": "the intoxicating ingredient in wine, beer and spirits",
+      "lit": "the eye-powder",
+      "origin": "Arabic",
+      "journey": [
+        {"lang": "Arabic", "form": "al-kuḥl", "gloss": "the kohl (fine powder for darkening eyelids)", "date": "medieval"},
+        {"lang": "Medieval Latin", "form": "alcohol", "gloss": "any fine powder", "date": "1500s"},
+        {"lang": "English", "form": "alcohol", "gloss": "a purified essence or distillate", "date": "1670s"},
+        {"lang": "English", "form": "alcohol", "gloss": "the spirit in drinks", "date": "1750s"}
+      ],
+      "parts": [{"p": "al-", "m": "the"}, {"p": "kuḥl", "m": "kohl, fine eye-powder"}],
+      "story": "Kohl is ground so fine it was the alchemists' model of a perfect essence. 'Alcohol of wine' meant the purest essence of wine — eventually the essence stole the name entirely.",
+      "example": "The sauce simmers until the alcohol cooks off.",
+      "related": ["kohl"]
+    },
+    {
+      "id": "checkmate", "word": "checkmate", "pron": "CHEK-mayt", "pos": "noun",
+      "def": "the winning position in chess; a total defeat",
+      "lit": "the king is helpless",
+      "origin": "Persian",
+      "journey": [
+        {"lang": "Persian", "form": "shāh māt", "gloss": "the king is helpless / stunned", "date": "medieval"},
+        {"lang": "Arabic", "form": "shāh māt", "gloss": "the same phrase", "date": "medieval"},
+        {"lang": "Old French", "form": "eschec mat", "gloss": "checkmate", "date": "1100s"},
+        {"lang": "English", "form": "checkmate", "gloss": "checkmate", "date": "mid-1300s"}
+      ],
+      "parts": [{"p": "check", "m": "king (Persian shāh)"}, {"p": "mate", "m": "helpless, defeated"}],
+      "story": "Chess travelled from India through Persia to Europe, carrying its vocabulary along. Even 'chess' comes from Old French eschecs, 'kings'. And the exchequer was named after a chequered counting table.",
+      "example": "Three moves later, it was checkmate.",
+      "related": ["chess", "check", "cheque", "exchequer"]
+    },
+    {
+      "id": "orange", "word": "orange", "pron": "OR-inj", "pos": "noun",
+      "def": "a round citrus fruit; the colour of that fruit",
+      "lit": "a narange → an orange",
+      "origin": "Sanskrit",
+      "journey": [
+        {"lang": "Sanskrit", "form": "nāraṅga", "gloss": "orange tree", "date": "ancient"},
+        {"lang": "Persian", "form": "nārang", "gloss": "orange", "date": "medieval"},
+        {"lang": "Arabic", "form": "nāranj", "gloss": "orange", "date": "medieval"},
+        {"lang": "Old French", "form": "orenge", "gloss": "the fruit (its 'n' lost)", "date": "1200s"},
+        {"lang": "English", "form": "orange", "gloss": "the fruit; the colour from the 1540s", "date": "c. 1300"}
+      ],
+      "parts": [],
+      "story": "Along the way, 'una narancia' was heard as 'un'arancia' — the n slipped off. The fruit also came before the colour: before oranges, English speakers called that shade 'yellow-red'.",
+      "example": "She peeled an orange in one long spiral.",
+      "related": ["Spanish naranja", "Persian nārang"]
+    },
+    {
+      "id": "jungle", "word": "jungle", "pron": "JUNG-gul", "pos": "noun",
+      "def": "dense tropical forest",
+      "lit": "dry, uncultivated land",
+      "origin": "Sanskrit",
+      "journey": [
+        {"lang": "Sanskrit", "form": "jaṅgala", "gloss": "arid, uncultivated", "date": "ancient"},
+        {"lang": "Hindi", "form": "jaṅgal", "gloss": "wasteland, forest", "date": "medieval"},
+        {"lang": "English", "form": "jungle", "gloss": "land overgrown with vegetation", "date": "1776"}
+      ],
+      "parts": [],
+      "story": "Its Sanskrit ancestor meant dry, wild, uncultivated land — closer to a desert than a rainforest. 'Wild' won out over 'dry' as the word moved through Hindi into English.",
+      "example": "Vines hung like ropes through the jungle.",
+      "related": ["Hindi jangal"]
+    },
+    {
+      "id": "shampoo", "word": "shampoo", "pron": "sham-POO", "pos": "noun",
+      "def": "liquid soap for washing hair",
+      "lit": "press! knead!",
+      "origin": "Hindi",
+      "journey": [
+        {"lang": "Hindi", "form": "chāmpo", "gloss": "press! (from chāmpnā, to press, knead)", "date": "1700s"},
+        {"lang": "English", "form": "shampoo", "gloss": "to massage in a bath", "date": "1762"},
+        {"lang": "English", "form": "shampoo", "gloss": "to wash the hair", "date": "1860"}
+      ],
+      "parts": [],
+      "story": "Shampoo began as a head and body massage in the bathhouses of India, popularised in Britain by the entrepreneur Sake Dean Mahomed in the early 1800s. The soap came later.",
+      "example": "This shampoo smells of rosemary.",
+      "related": []
+    },
+    {
+      "id": "candy", "word": "candy", "pron": "KAN-dee", "pos": "noun",
+      "def": "sweets made from sugar",
+      "lit": "a piece (of sugar)",
+      "origin": "Sanskrit",
+      "journey": [
+        {"lang": "Sanskrit", "form": "khaṇḍa", "gloss": "a piece, a lump of sugar", "date": "ancient"},
+        {"lang": "Persian", "form": "qand", "gloss": "cane sugar", "date": "medieval"},
+        {"lang": "Arabic", "form": "qandī", "gloss": "made of sugar", "date": "medieval"},
+        {"lang": "Old French", "form": "sucre candi", "gloss": "crystallised sugar", "date": "1200s"},
+        {"lang": "English", "form": "candy", "gloss": "sweets", "date": "1700s"}
+      ],
+      "parts": [],
+      "story": "Sugar crystals were broken into lumps for trading, and the Sanskrit word for 'piece' travelled with them. 'Sugar' itself is Sanskrit too — śarkarā, 'grit, gravel'.",
+      "example": "The jar of candy emptied suspiciously fast.",
+      "related": ["candied", "sugar (also from Sanskrit)"]
+    },
+
+    {
+      "id": "berserk", "word": "berserk", "pron": "ber-ZURK", "pos": "adjective",
+      "def": "out of control with anger or excitement",
+      "lit": "bear-shirt",
+      "origin": "Old Norse",
+      "journey": [
+        {"lang": "Old Norse", "form": "berserkr", "gloss": "a frenzied warrior", "date": "Viking Age"},
+        {"lang": "English", "form": "berserker", "gloss": "a wild Norse warrior", "date": "1822"},
+        {"lang": "English", "form": "go berserk", "gloss": "to lose control", "date": "1940s"}
+      ],
+      "parts": [{"p": "ber-", "m": "bear"}, {"p": "serkr", "m": "shirt, coat"}],
+      "story": "Berserkers were Norse warriors who fought in a trance-like fury, perhaps wearing bearskins. (Some scholars read it as 'bare-shirt' — fighting without armour.) Sir Walter Scott brought the word into English.",
+      "example": "The crowd went berserk when the goal went in.",
+      "related": ["bear", "sark (Scots: shirt)"]
+    },
+    {
+      "id": "ransack", "word": "ransack", "pron": "RAN-sak", "pos": "verb",
+      "def": "to search a place roughly, causing disorder",
+      "lit": "house-search",
+      "origin": "Old Norse",
+      "journey": [
+        {"lang": "Old Norse", "form": "rannsaka", "gloss": "to search a house (for stolen goods)", "date": "Viking Age"},
+        {"lang": "Middle English", "form": "ransaken", "gloss": "to make a legal search", "date": "c. 1200"},
+        {"lang": "English", "form": "ransack", "gloss": "to plunder, turn upside down", "date": "late 1300s"}
+      ],
+      "parts": [{"p": "rann", "m": "house"}, {"p": "saka", "m": "to search, seek"}],
+      "story": "Ransacking started as a legal procedure: officials searching a home for stolen property. The thoroughness stayed; the legality didn't.",
+      "example": "Burglars had ransacked every drawer.",
+      "related": ["seek", "sake"]
+    },
+    {
+      "id": "sky", "word": "sky", "pron": "skye", "pos": "noun",
+      "def": "the region of air above the earth",
+      "lit": "cloud",
+      "origin": "Old Norse",
+      "journey": [
+        {"lang": "Old Norse", "form": "ský", "gloss": "cloud", "date": "Viking Age"},
+        {"lang": "Middle English", "form": "skie", "gloss": "cloud", "date": "c. 1200"},
+        {"lang": "Middle English", "form": "sky", "gloss": "the upper air, the heavens", "date": "c. 1300"}
+      ],
+      "parts": [],
+      "story": "Old English speakers looked up at 'heofon'. The Vikings brought ský, meaning 'cloud' — and it took over the whole blue expanse, leaving heaven to the angels.",
+      "example": "The sky turned pink at sunset.",
+      "related": ["hide (same ancient root, 'to cover')"]
+    },
+    {
+      "id": "egg", "word": "egg", "pron": "eg", "pos": "noun",
+      "def": "the oval object laid by a bird, containing a developing chick",
+      "lit": "the Norse word for egg",
+      "origin": "Old Norse",
+      "journey": [
+        {"lang": "Old English", "form": "ǣg (plural ǣgru)", "gloss": "egg", "date": "before 1100"},
+        {"lang": "Middle English", "form": "ey / eyren", "gloss": "egg / eggs (southern)", "date": "1300s"},
+        {"lang": "Old Norse → English", "form": "egg", "gloss": "egg (northern), wins out", "date": "1500s"}
+      ],
+      "parts": [],
+      "story": "In 1490 the printer William Caxton told of a merchant asking a Kentish woman for 'egges'. She replied she spoke no French — she called them 'eyren'. Two words for egg existed side by side, and the Norse one won.",
+      "example": "I like my egg soft-boiled.",
+      "related": ["German Ei", "eyrie (unrelated!)"]
+    },
+    {
+      "id": "they", "word": "they", "pron": "thay", "pos": "pronoun",
+      "def": "people or things previously mentioned",
+      "lit": "those ones",
+      "origin": "Old Norse",
+      "journey": [
+        {"lang": "Old English", "form": "hīe", "gloss": "they", "date": "before 1100"},
+        {"lang": "Old Norse", "form": "þeir", "gloss": "they", "date": "Viking Age"},
+        {"lang": "Middle English", "form": "they / thei", "gloss": "spreading south from the north", "date": "1200s–1400s"}
+      ],
+      "parts": [],
+      "story": "Languages almost never borrow basic pronouns — yet English took they, them and their from Old Norse. It shows how closely Viking settlers and English speakers lived together.",
+      "example": "They arrived just as the film began.",
+      "related": ["them", "their"]
+    },
+    {
+      "id": "window", "word": "window", "pron": "WIN-doh", "pos": "noun",
+      "def": "an opening in a wall, fitted with glass",
+      "lit": "wind-eye",
+      "origin": "Old Norse",
+      "journey": [
+        {"lang": "Old Norse", "form": "vindauga", "gloss": "wind-eye", "date": "Viking Age"},
+        {"lang": "Middle English", "form": "windoge", "gloss": "an opening in a roof or wall", "date": "c. 1200"},
+        {"lang": "English", "form": "window", "gloss": "a glazed opening", "date": "later"}
+      ],
+      "parts": [{"p": "vind-", "m": "wind"}, {"p": "auga", "m": "eye"}],
+      "story": "Early windows were unglazed holes that let smoke out and wind in — an eye for the wind. The Norse word pushed out Old English 'eagþyrel', 'eye-hole'.",
+      "example": "Rain streaked down the window.",
+      "related": ["wind", "eye"]
+    },
+    {
+      "id": "husband", "word": "husband", "pron": "HUZ-bund", "pos": "noun",
+      "def": "a married man in relation to his spouse",
+      "lit": "house-dweller",
+      "origin": "Old Norse",
+      "journey": [
+        {"lang": "Old Norse", "form": "húsbóndi", "gloss": "master of the house, householder", "date": "Viking Age"},
+        {"lang": "Late Old English", "form": "hūsbonda", "gloss": "householder", "date": "c. 1000"},
+        {"lang": "Middle English", "form": "husbonde", "gloss": "a married man", "date": "c. 1300"}
+      ],
+      "parts": [{"p": "hús", "m": "house"}, {"p": "bóndi", "m": "dweller, householder"}],
+      "story": "A husband was first a householder who farmed his land — which is why 'husbandry' still means farming and careful management. The marriage sense came later.",
+      "example": "Her husband grew tomatoes on the balcony.",
+      "related": ["husbandry", "house", "booth"]
+    },
+    {
+      "id": "law", "word": "law", "pron": "law", "pos": "noun",
+      "def": "the system of rules a community recognises",
+      "lit": "what is laid down",
+      "origin": "Old Norse",
+      "journey": [
+        {"lang": "Old Norse", "form": "lǫg", "gloss": "law (literally 'things laid down')", "date": "Viking Age"},
+        {"lang": "Late Old English", "form": "lagu", "gloss": "law", "date": "c. 1000"},
+        {"lang": "Middle English", "form": "lawe", "gloss": "law", "date": "1100s"}
+      ],
+      "parts": [],
+      "story": "To the Norse, law was simply what had been laid down. Parts of Viking-ruled England were even called the Danelaw — the area under Danish law.",
+      "example": "No one is above the law.",
+      "related": ["lay", "low", "by-law"]
+    },
+
+    {
+      "id": "muscle", "word": "muscle", "pron": "MUS-ul", "pos": "noun",
+      "def": "body tissue that contracts to produce movement",
+      "lit": "little mouse",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "musculus", "gloss": "little mouse; muscle", "date": "classical"},
+        {"lang": "French", "form": "muscle", "gloss": "muscle", "date": "1300s"},
+        {"lang": "English", "form": "muscle", "gloss": "muscle", "date": "late 1300s"}
+      ],
+      "parts": [{"p": "mus", "m": "mouse"}, {"p": "-culus", "m": "little"}],
+      "story": "Flex your biceps and watch: the Romans thought a rippling muscle looked like a little mouse scurrying under the skin. The same word also gave us mussel.",
+      "example": "He pulled a muscle lifting the sofa.",
+      "related": ["mouse", "mussel"]
+    },
+    {
+      "id": "sinister", "word": "sinister", "pron": "SIN-is-ter", "pos": "adjective",
+      "def": "giving the impression that something harmful will happen",
+      "lit": "on the left",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "sinister", "gloss": "left, on the left side", "date": "classical"},
+        {"lang": "Old French", "form": "senestre", "gloss": "left; unlucky", "date": "1100s"},
+        {"lang": "English", "form": "sinister", "gloss": "malicious, threatening", "date": "early 1400s"}
+      ],
+      "parts": [],
+      "story": "In Latin, sinister just meant left. Under Greek influence, omens appearing on the left were read as unlucky, and the word darkened. Heraldry still uses 'sinister' for the left side of a shield.",
+      "example": "A sinister figure lurked in the doorway.",
+      "related": ["sinistral (left-handed)"]
+    },
+    {
+      "id": "dexterous", "word": "dexterous", "pron": "DEK-strus", "pos": "adjective",
+      "def": "skilful, especially with the hands",
+      "lit": "right-handed",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "dexter", "gloss": "on the right; skilful", "date": "classical"},
+        {"lang": "English", "form": "dexterity", "gloss": "skill", "date": "1520s"},
+        {"lang": "English", "form": "dexterous", "gloss": "skilful", "date": "1600s"}
+      ],
+      "parts": [{"p": "dexter", "m": "right-hand"}, {"p": "-ous", "m": "full of"}],
+      "story": "If the left was sinister, the right was skilful — a bias baked into many languages. Ambidextrous people are, literally, 'right-handed on both sides'.",
+      "example": "Her dexterous fingers folded the paper crane in seconds.",
+      "related": ["dexterity", "ambidextrous"]
+    },
+    {
+      "id": "focus", "word": "focus", "pron": "FOH-kus", "pos": "noun",
+      "def": "the centre of interest; the point where rays meet",
+      "lit": "hearth",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "focus", "gloss": "hearth, fireplace", "date": "classical"},
+        {"lang": "Modern Latin", "form": "focus", "gloss": "the burning point of a lens (Kepler)", "date": "1604"},
+        {"lang": "English", "form": "focus", "gloss": "point of convergence; centre of attention", "date": "1640s"}
+      ],
+      "parts": [],
+      "story": "The hearth was the centre of a Roman home. The astronomer Johannes Kepler borrowed the word for the point where a lens concentrates sunlight enough to start a fire.",
+      "example": "Turn off your phone and focus.",
+      "related": ["fuel", "foyer", "curfew (cover-fire)"]
+    },
+    {
+      "id": "candidate", "word": "candidate", "pron": "KAN-dih-dayt", "pos": "noun",
+      "def": "a person who applies for a job or stands for election",
+      "lit": "white-robed",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "candidus", "gloss": "white, gleaming", "date": "classical"},
+        {"lang": "Latin", "form": "candidatus", "gloss": "clothed in white", "date": "classical"},
+        {"lang": "English", "form": "candidate", "gloss": "one who seeks office", "date": "1600s"}
+      ],
+      "parts": [{"p": "candid-", "m": "white, shining"}, {"p": "-ate", "m": "provided with"}],
+      "story": "Romans seeking public office wore togas rubbed with chalk to look brilliantly white — a sign of purity. Candid, candle and incandescent all glow from the same root.",
+      "example": "Three candidates are running for mayor.",
+      "related": ["candid", "candle", "incandescent"]
+    },
+    {
+      "id": "salary", "word": "salary", "pron": "SAL-uh-ree", "pos": "noun",
+      "def": "fixed regular pay for work",
+      "lit": "salt-money",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "sal", "gloss": "salt", "date": "classical"},
+        {"lang": "Latin", "form": "salarium", "gloss": "a soldier's allowance; a stipend", "date": "classical"},
+        {"lang": "Anglo-French", "form": "salarie", "gloss": "pay", "date": "1200s"},
+        {"lang": "English", "form": "salary", "gloss": "regular pay", "date": "c. 1300"}
+      ],
+      "parts": [{"p": "sal", "m": "salt"}, {"p": "-arium", "m": "connected with"}],
+      "story": "Salarium is clearly built on sal, salt. The popular tale that Roman soldiers were paid in salt is unproven — it may have been an allowance to buy salt, or something else entirely. Etymology loves an honest 'we're not sure'.",
+      "example": "She negotiated a higher salary.",
+      "related": ["salt", "salad", "sauce", "salami"]
+    },
+    {
+      "id": "companion", "word": "companion", "pron": "kum-PAN-yun", "pos": "noun",
+      "def": "a person you spend time or travel with",
+      "lit": "bread-sharer",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Late Latin", "form": "companio", "gloss": "messmate, one who shares bread", "date": "late antiquity"},
+        {"lang": "Old French", "form": "compaignon", "gloss": "fellow, comrade", "date": "1100s"},
+        {"lang": "English", "form": "companion", "gloss": "companion", "date": "c. 1300"}
+      ],
+      "parts": [{"p": "com-", "m": "with, together"}, {"p": "panis", "m": "bread"}],
+      "story": "A companion is someone you break bread with. The Latin may itself copy a Germanic word built the same way — Gothic gahlaiba, 'fellow-loaf'.",
+      "example": "Her dog was her constant companion.",
+      "related": ["company", "pantry", "accompany"]
+    },
+    {
+      "id": "supercilious", "word": "supercilious", "pron": "soo-per-SIL-ee-us", "pos": "adjective",
+      "def": "behaving as though you are superior to others",
+      "lit": "eyebrow-raising",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "supercilium", "gloss": "eyebrow; pride, haughtiness", "date": "classical"},
+        {"lang": "Latin", "form": "superciliosus", "gloss": "haughty", "date": "classical"},
+        {"lang": "English", "form": "supercilious", "gloss": "disdainful", "date": "1520s"}
+      ],
+      "parts": [{"p": "super-", "m": "above"}, {"p": "cilium", "m": "eyelid"}],
+      "story": "The thing above the eyelid is the eyebrow — and a single raised eyebrow is the universal sign of disdain. A supercilious person is all eyebrow.",
+      "example": "The waiter gave our shoes a supercilious glance.",
+      "related": ["cilia", "superior"]
+    }
+  ]
+}

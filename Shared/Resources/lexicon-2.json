@@ -1,0 +1,661 @@
+{
+  "units": [
+    {
+      "id": "greek",
+      "title": "The Greek Toolkit",
+      "subtitle": "Building blocks borrowed from Athens",
+      "emblem": "unit_greek",
+      "words": ["sarcasm", "nostalgia", "hypocrite", "idiot", "school", "symposium", "petrichor", "enthusiasm"]
+    },
+    {
+      "id": "lost",
+      "title": "Lost & Found Letters",
+      "subtitle": "Words that dropped, grabbed or squashed their sounds",
+      "emblem": "unit_lost",
+      "words": ["apron", "umpire", "adder", "nickname", "newt", "daisy", "goodbye", "dandelion"]
+    },
+    {
+      "id": "myths",
+      "title": "Myth Busters",
+      "subtitle": "Catchy origin stories that aren't true",
+      "emblem": "unit_myths",
+      "words": ["posh", "sincere", "news", "golf", "tip", "picnic", "ok", "sirloin"]
+    },
+    {
+      "id": "farshores",
+      "title": "Far Shores",
+      "subtitle": "Souvenirs from the Aztecs to the Philippines",
+      "emblem": "unit_farshores",
+      "words": ["avocado", "chocolate", "tomato", "tycoon", "ketchup", "amok", "robot", "boondocks"]
+    },
+    {
+      "id": "longwords",
+      "title": "Splendid Words",
+      "subtitle": "Rare, long and lovely — for showing off",
+      "emblem": "unit_longwords",
+      "words": ["sesquipedalian", "defenestration", "mellifluous", "lugubrious", "pusillanimous", "quintessence", "susurrus", "apricity"]
+    }
+  ],
+  "words": [
+    {
+      "id": "sarcasm", "word": "sarcasm", "pron": "SAR-kaz-um", "pos": "noun",
+      "def": "the use of irony to mock or show contempt",
+      "lit": "tearing flesh",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "sarkazein", "gloss": "to tear flesh like a dog; to sneer", "date": "classical"},
+        {"lang": "Late Greek", "form": "sarkasmos", "gloss": "a sneer, a cutting remark", "date": "late antiquity"},
+        {"lang": "Late Latin", "form": "sarcasmus", "gloss": "sarcasm", "date": "late antiquity"},
+        {"lang": "English", "form": "sarcasm", "gloss": "cutting irony", "date": "1570s"}
+      ],
+      "parts": [{"p": "sarc-", "m": "flesh"}, {"p": "-asm", "m": "act, result"}],
+      "story": "Sarcasm bites — literally. The Greek verb described dogs tearing at meat, then people biting their lips in rage. Sarcophagus, 'flesh-eater', is a cousin: limestone coffins were said to consume bodies.",
+      "example": "'Oh, great, more rain,' she said with heavy sarcasm.",
+      "related": ["sarcophagus", "sarcoma"]
+    },
+    {
+      "id": "nostalgia", "word": "nostalgia", "pron": "nos-TAL-juh", "pos": "noun",
+      "def": "a sentimental longing for the past",
+      "lit": "homecoming-pain",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "nostos + algos", "gloss": "homecoming + pain", "date": "classical"},
+        {"lang": "Modern Latin", "form": "nostalgia", "gloss": "a medical diagnosis: severe homesickness", "date": "1688"},
+        {"lang": "English", "form": "nostalgia", "gloss": "homesickness (medical)", "date": "1770"},
+        {"lang": "English", "form": "nostalgia", "gloss": "wistful longing for the past", "date": "1920s"}
+      ],
+      "parts": [{"p": "nost-", "m": "return home"}, {"p": "-algia", "m": "pain"}],
+      "story": "A Swiss medical student, Johannes Hofer, coined it in 1688 for Swiss soldiers abroad who were wasting away from homesickness. It was treated as a real, sometimes fatal, disease.",
+      "example": "The old cartoon filled him with nostalgia.",
+      "related": ["neuralgia", "analgesic"]
+    },
+    {
+      "id": "hypocrite", "word": "hypocrite", "pron": "HIP-uh-krit", "pos": "noun",
+      "def": "someone who claims beliefs they don't live by",
+      "lit": "stage actor",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "hypokritēs", "gloss": "actor; one who plays a part", "date": "classical"},
+        {"lang": "Late Latin", "form": "hypocrita", "gloss": "a pretender", "date": "late antiquity"},
+        {"lang": "Old French", "form": "ypocrite", "gloss": "a pretender", "date": "1100s"},
+        {"lang": "English", "form": "hypocrite", "gloss": "a hypocrite", "date": "c. 1200"}
+      ],
+      "parts": [{"p": "hypo-", "m": "under"}, {"p": "krit-", "m": "to judge, decide"}],
+      "story": "In Greek theatre the hypokritēs was simply the actor — the one who 'answered' on stage. Someone wearing a mask in daily life is still an actor, just a dishonest one.",
+      "example": "He preached about saving water, then filled his pool — a hypocrite.",
+      "related": ["critic", "criterion", "crisis"]
+    },
+    {
+      "id": "idiot", "word": "idiot", "pron": "ID-ee-ut", "pos": "noun",
+      "def": "a foolish person",
+      "lit": "a private person",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "idiōtēs", "gloss": "private citizen, layman", "date": "classical"},
+        {"lang": "Latin", "form": "idiota", "gloss": "ordinary, uneducated person", "date": "classical"},
+        {"lang": "Old French", "form": "idiote", "gloss": "uneducated person", "date": "1200s"},
+        {"lang": "English", "form": "idiot", "gloss": "a fool", "date": "c. 1300"}
+      ],
+      "parts": [{"p": "idio-", "m": "one's own, private"}, {"p": "-tēs", "m": "person"}],
+      "story": "In Athens an idiōtēs was a private individual — someone who kept to their own affairs rather than public life. The professional class looked down on such amateurs, and 'layman' slid into 'ignoramus'.",
+      "example": "I felt like an idiot for locking my keys in the car.",
+      "related": ["idiom", "idiosyncrasy"]
+    },
+    {
+      "id": "school", "word": "school", "pron": "skool", "pos": "noun",
+      "def": "an institution for educating children",
+      "lit": "leisure",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "skholē", "gloss": "leisure, spare time; what you do with it", "date": "classical"},
+        {"lang": "Latin", "form": "schola", "gloss": "lecture, school", "date": "classical"},
+        {"lang": "Old English", "form": "scōl", "gloss": "school", "date": "before 1100"}
+      ],
+      "parts": [],
+      "story": "For the Greeks, free time was for thinking, debate and lectures — the noblest use of leisure. So school literally means 'time off'. Tell that to anyone with homework.",
+      "example": "The school bell rang at eight.",
+      "related": ["scholar", "scholastic"]
+    },
+    {
+      "id": "symposium", "word": "symposium", "pron": "sim-POH-zee-um", "pos": "noun",
+      "def": "a conference or meeting to discuss a subject",
+      "lit": "drinking together",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "symposion", "gloss": "drinking party", "date": "classical"},
+        {"lang": "Latin", "form": "symposium", "gloss": "a banquet", "date": "classical"},
+        {"lang": "English", "form": "symposium", "gloss": "a drinking party; later, an academic meeting", "date": "1580s"}
+      ],
+      "parts": [{"p": "sym-", "m": "together"}, {"p": "posis", "m": "drinking"}],
+      "story": "A Greek symposium was an after-dinner drinking party with music and conversation — Plato set a famous dialogue at one. Academic conferences kept the name, if not always the wine.",
+      "example": "She presented her paper at an international symposium.",
+      "related": ["potion", "potable"]
+    },
+    {
+      "id": "petrichor", "word": "petrichor", "pron": "PET-rih-kor", "pos": "noun",
+      "def": "the earthy smell of rain falling on dry ground",
+      "lit": "stone-blood of the gods",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "petra + ikhōr", "gloss": "stone + the fluid in gods' veins", "date": "classical"},
+        {"lang": "English", "form": "petrichor", "gloss": "coined by two Australian scientists", "date": "1964"}
+      ],
+      "parts": [{"p": "petr-", "m": "stone"}, {"p": "ichor", "m": "the golden blood of the gods"}],
+      "story": "Isabel Bear and Richard Thomas coined it in the journal Nature for the scent released from rocks and soil when rain falls. They reached for myth: ichor flowed in the veins of Greek gods.",
+      "example": "After the storm, the air was full of petrichor.",
+      "related": ["petrify", "petroleum", "Peter (the rock)"]
+    },
+    {
+      "id": "enthusiasm", "word": "enthusiasm", "pron": "en-THOO-zee-az-um", "pos": "noun",
+      "def": "intense enjoyment, interest or eagerness",
+      "lit": "having a god inside",
+      "origin": "Greek",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "entheos", "gloss": "possessed by a god", "date": "classical"},
+        {"lang": "Ancient Greek", "form": "enthousiasmos", "gloss": "divine inspiration", "date": "classical"},
+        {"lang": "English", "form": "enthusiasm", "gloss": "religious frenzy (often disapproving)", "date": "1600s"},
+        {"lang": "English", "form": "enthusiasm", "gloss": "eagerness", "date": "1700s"}
+      ],
+      "parts": [{"p": "en-", "m": "in"}, {"p": "theos", "m": "god"}],
+      "story": "To be enthusiastic was to have a god inside you, speaking through you. In the 1700s it was an insult for over-the-top religious zeal — before it became the thing every job ad asks for.",
+      "example": "The puppy greeted us with boundless enthusiasm.",
+      "related": ["theology", "atheist", "pantheon"]
+    },
+
+    {
+      "id": "apron", "word": "apron", "pron": "AY-prun", "pos": "noun",
+      "def": "a protective garment tied over the front of clothes",
+      "lit": "a napron",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "mappa", "gloss": "napkin, cloth", "date": "classical"},
+        {"lang": "Old French", "form": "naperon", "gloss": "small tablecloth", "date": "1200s"},
+        {"lang": "Middle English", "form": "napron", "gloss": "apron", "date": "c. 1300"},
+        {"lang": "English", "form": "an apron", "gloss": "'a napron' heard as 'an apron'", "date": "1400s"}
+      ],
+      "parts": [],
+      "story": "Say 'a napron' quickly and it sounds exactly like 'an apron'. Over time, the n hopped from the noun to the article. Its siblings napkin and map (from Latin mappa, a cloth) kept theirs.",
+      "example": "He tied on an apron and started chopping onions.",
+      "related": ["napkin", "map", "napery"]
+    },
+    {
+      "id": "umpire", "word": "umpire", "pron": "UM-pyre", "pos": "noun",
+      "def": "an official who enforces the rules of a game",
+      "lit": "not-equal (the odd one out)",
+      "origin": "French",
+      "journey": [
+        {"lang": "Old French", "form": "nonper", "gloss": "odd, not equal; a third party", "date": "1200s"},
+        {"lang": "Middle English", "form": "noumpere", "gloss": "an arbitrator", "date": "c. 1400"},
+        {"lang": "English", "form": "an umpire", "gloss": "'a noumpere' heard as 'an oumpere'", "date": "1400s"}
+      ],
+      "parts": [{"p": "non-", "m": "not"}, {"p": "per", "m": "equal, peer"}],
+      "story": "An umpire is the 'non-peer' — the odd third person called in when two equals disagree. Then 'a noumpere' became 'an oumpere', and the n wandered off.",
+      "example": "The umpire called the ball out.",
+      "related": ["peer", "par", "compare"]
+    },
+    {
+      "id": "adder", "word": "adder", "pron": "AD-er", "pos": "noun",
+      "def": "a small venomous snake",
+      "lit": "a nadder",
+      "origin": "Old English",
+      "journey": [
+        {"lang": "Proto-Germanic", "form": "*nēdrō", "gloss": "snake", "date": "prehistoric"},
+        {"lang": "Old English", "form": "nǣdre", "gloss": "serpent", "date": "before 1100"},
+        {"lang": "Middle English", "form": "naddre → addre", "gloss": "'a naddre' heard as 'an addre'", "date": "1300s"}
+      ],
+      "parts": [],
+      "story": "Another lost n. German kept it: a viper there is still a Natter. In English the snake slithered out of its first letter.",
+      "example": "An adder basked on the warm path.",
+      "related": ["German Natter"]
+    },
+    {
+      "id": "nickname", "word": "nickname", "pron": "NIK-naym", "pos": "noun",
+      "def": "an informal, familiar name",
+      "lit": "an also-name",
+      "origin": "Old English",
+      "journey": [
+        {"lang": "Middle English", "form": "ekename", "gloss": "an additional name", "date": "c. 1300"},
+        {"lang": "Middle English", "form": "a nekename", "gloss": "'an ekename' heard as 'a nekename'", "date": "1400s"},
+        {"lang": "English", "form": "nickname", "gloss": "nickname", "date": "1500s"}
+      ],
+      "parts": [{"p": "eke", "m": "also, in addition"}, {"p": "name", "m": "name"}],
+      "story": "The opposite of apron: this word gained an n. An 'eke-name' was an extra name — the same eke as in 'eke out' a living, adding a little more.",
+      "example": "Her nickname at school was 'Rocket'.",
+      "related": ["eke out"]
+    },
+    {
+      "id": "newt", "word": "newt", "pron": "noot", "pos": "noun",
+      "def": "a small amphibian with a long tail",
+      "lit": "an ewt",
+      "origin": "Old English",
+      "journey": [
+        {"lang": "Old English", "form": "efete", "gloss": "lizard-like creature", "date": "before 1100"},
+        {"lang": "Middle English", "form": "ewte", "gloss": "newt", "date": "1300s"},
+        {"lang": "English", "form": "a newt", "gloss": "'an ewte' heard as 'a newte'", "date": "1400s"}
+      ],
+      "parts": [],
+      "story": "Newt borrowed the n from its article. Its unaltered twin, eft, survives as the name for a young newt.",
+      "example": "We found a newt under the garden stone.",
+      "related": ["eft"]
+    },
+    {
+      "id": "daisy", "word": "daisy", "pron": "DAY-zee", "pos": "noun",
+      "def": "a small flower with white petals and a yellow centre",
+      "lit": "day's eye",
+      "origin": "Old English",
+      "journey": [
+        {"lang": "Old English", "form": "dæges ēage", "gloss": "day's eye", "date": "before 1100"},
+        {"lang": "Middle English", "form": "dayeseye", "gloss": "daisy", "date": "1300s"},
+        {"lang": "English", "form": "daisy", "gloss": "daisy", "date": "1400s on"}
+      ],
+      "parts": [{"p": "day's", "m": "of the day"}, {"p": "eye", "m": "eye"}],
+      "story": "The daisy opens its petals at dawn and closes them at dusk, like an eye waking and sleeping with the sun. Two words got squashed into one.",
+      "example": "She wove a chain of daisies.",
+      "related": ["day", "eye"]
+    },
+    {
+      "id": "goodbye", "word": "goodbye", "pron": "good-BYE", "pos": "exclamation",
+      "def": "said when parting",
+      "lit": "God be with ye",
+      "origin": "English",
+      "journey": [
+        {"lang": "English", "form": "God be with ye", "gloss": "a blessing at parting", "date": "1500s"},
+        {"lang": "English", "form": "godbwye", "gloss": "squashed in letters and speech", "date": "1570s"},
+        {"lang": "English", "form": "goodbye", "gloss": "God → good, after 'good day', 'good night'", "date": "1600s on"}
+      ],
+      "parts": [],
+      "story": "Every goodbye hides a blessing. 'God be with ye' was worn down by centuries of hurried partings, and 'God' became 'good' to match 'good morning' and 'good night'.",
+      "example": "We waved goodbye from the platform.",
+      "related": ["adieu (to God)", "adios"]
+    },
+    {
+      "id": "dandelion", "word": "dandelion", "pron": "DAN-dih-ly-un", "pos": "noun",
+      "def": "a yellow wildflower whose seeds form a fluffy clock",
+      "lit": "lion's tooth",
+      "origin": "French",
+      "journey": [
+        {"lang": "Medieval Latin", "form": "dens leonis", "gloss": "lion's tooth", "date": "medieval"},
+        {"lang": "French", "form": "dent de lion", "gloss": "lion's tooth", "date": "medieval"},
+        {"lang": "English", "form": "dandelion", "gloss": "the flower", "date": "early 1500s"}
+      ],
+      "parts": [{"p": "dent", "m": "tooth"}, {"p": "de", "m": "of"}, {"p": "lion", "m": "lion"}],
+      "story": "Look at a dandelion leaf: its deep jagged edges look like rows of fangs. English squashed three French words into one.",
+      "example": "The child blew the dandelion clock into the wind.",
+      "related": ["dentist", "dental", "trident"]
+    },
+
+    {
+      "id": "posh", "word": "posh", "pron": "posh", "pos": "adjective",
+      "def": "elegant, stylish or upper-class",
+      "lit": "uncertain — possibly 'money'",
+      "origin": "English",
+      "journey": [
+        {"lang": "English slang", "form": "posh", "gloss": "money; a dandy (possibly from Romani)", "date": "1800s"},
+        {"lang": "English", "form": "posh", "gloss": "smart, stylish", "date": "1914"}
+      ],
+      "parts": [],
+      "story": "No surviving ticket, record or advertisement ever printed 'P.O.S.H.' — the acronym story appeared decades after the word. Its real origin is uncertain; one theory links it to older slang for money.",
+      "example": "They had dinner at a very posh restaurant.",
+      "related": [],
+      "myth": {"claim": "Posh stands for 'Port Out, Starboard Home' — the shady side of ships to India.", "truth": "False. No evidence of the acronym exists; it's a later invention."}
+    },
+    {
+      "id": "sincere", "word": "sincere", "pron": "sin-SEER", "pos": "adjective",
+      "def": "genuine, free from pretence",
+      "lit": "pure, unmixed",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "sincerus", "gloss": "pure, clean, unmixed", "date": "classical"},
+        {"lang": "French", "form": "sincère", "gloss": "sincere", "date": "1400s"},
+        {"lang": "English", "form": "sincere", "gloss": "genuine", "date": "1530s"}
+      ],
+      "parts": [],
+      "story": "A charming tale says dishonest sculptors hid cracks with wax, so honest work was 'sine cera', without wax. Lovely — but invented. Latin sincerus simply meant clean or pure.",
+      "example": "Please accept my sincere apologies.",
+      "related": ["sincerity"],
+      "myth": {"claim": "Sincere comes from Latin 'sine cera', 'without wax', as in flawless sculpture.", "truth": "False. It's from Latin sincerus, 'pure, unmixed'."}
+    },
+    {
+      "id": "news", "word": "news", "pron": "nooz", "pos": "noun",
+      "def": "newly received information about recent events",
+      "lit": "new things",
+      "origin": "English",
+      "journey": [
+        {"lang": "Medieval Latin", "form": "nova", "gloss": "new things", "date": "medieval"},
+        {"lang": "Middle English", "form": "newes", "gloss": "plural of new: new things", "date": "late 1300s"},
+        {"lang": "English", "form": "news", "gloss": "treated as singular", "date": "1500s on"}
+      ],
+      "parts": [{"p": "new", "m": "new"}, {"p": "-s", "m": "plural: things"}],
+      "story": "News is just 'new' with a plural -s: new things, modelled on French nouvelles. People once said 'these news are good'.",
+      "example": "Have you heard the news?",
+      "related": ["new", "novel", "nova"],
+      "myth": {"claim": "News is an acronym of North, East, West, South.", "truth": "False. It's the plural of 'new' — 'new things'."}
+    },
+    {
+      "id": "golf", "word": "golf", "pron": "golf", "pos": "noun",
+      "def": "a game played by hitting a small ball into holes with clubs",
+      "lit": "club",
+      "origin": "Dutch",
+      "journey": [
+        {"lang": "Middle Dutch", "form": "colf / kolf", "gloss": "club, bat", "date": "1300s"},
+        {"lang": "Scots", "form": "golf / gouf", "gloss": "the game (banned by Parliament in 1457)", "date": "1457"},
+        {"lang": "English", "form": "golf", "gloss": "golf", "date": "1500s on"}
+      ],
+      "parts": [],
+      "story": "The first record of golf is a 1457 Scottish law banning it because it distracted men from archery practice. The name most likely comes from a Dutch word for a club.",
+      "example": "He spent Sunday playing golf.",
+      "related": ["Dutch kolf"],
+      "myth": {"claim": "Golf stands for 'Gentlemen Only, Ladies Forbidden'.", "truth": "False. It's recorded in 1457, long before acronyms; probably from Dutch kolf, 'club'."}
+    },
+    {
+      "id": "tip", "word": "tip", "pron": "tip", "pos": "noun",
+      "def": "a small extra sum of money given for good service",
+      "lit": "to give, hand over",
+      "origin": "English",
+      "journey": [
+        {"lang": "English (thieves' slang)", "form": "tip", "gloss": "to give, pass, hand over", "date": "1600s"},
+        {"lang": "English", "form": "tip", "gloss": "a small gift of money", "date": "1700s"}
+      ],
+      "parts": [],
+      "story": "Tip began as underworld slang for handing something over. Acronym origins are almost always a giveaway: they were rare in English before the 20th century.",
+      "example": "We left a generous tip for the waiter.",
+      "related": [],
+      "myth": {"claim": "Tip stands for 'To Insure Promptness'.", "truth": "False. It's 17th-century slang meaning 'to give'."}
+    },
+    {
+      "id": "picnic", "word": "picnic", "pron": "PIK-nik", "pos": "noun",
+      "def": "an outdoor meal",
+      "lit": "pick + trifle",
+      "origin": "French",
+      "journey": [
+        {"lang": "French", "form": "pique-nique", "gloss": "a meal where each guest brings food", "date": "1690s"},
+        {"lang": "English", "form": "picnic", "gloss": "a fashionable social party", "date": "1748"},
+        {"lang": "English", "form": "picnic", "gloss": "an outdoor meal", "date": "1800s"}
+      ],
+      "parts": [{"p": "pique", "m": "to pick, peck"}, {"p": "nique", "m": "a rhyming trifle"}],
+      "story": "A widely shared claim gives picnic a racist origin story. It has none: it comes from 17th-century French pique-nique, a shared meal — recorded long before the events it's linked to.",
+      "example": "We spread a blanket for a picnic by the river.",
+      "related": [],
+      "myth": {"claim": "Picnic comes from racist gatherings in the American South.", "truth": "False. It's from 1690s French pique-nique, a shared meal."}
+    },
+    {
+      "id": "ok", "word": "OK", "pron": "oh-KAY", "pos": "adjective",
+      "def": "all right; acceptable",
+      "lit": "oll korrect",
+      "origin": "English",
+      "journey": [
+        {"lang": "American English", "form": "o.k.", "gloss": "joke abbreviation of 'oll korrect' in a Boston paper", "date": "1839"},
+        {"lang": "American English", "form": "O.K.", "gloss": "Old Kinderhook clubs back Van Buren for president", "date": "1840"},
+        {"lang": "World English", "form": "OK", "gloss": "the most widely used word on Earth", "date": "today"}
+      ],
+      "parts": [],
+      "story": "In 1839 Boston newspapers were mad for joke abbreviations of misspellings. Most died, but 'oll korrect' got a boost from President Van Buren's 'Old Kinderhook' campaign. Linguist Allen Walker Read proved it in the 1960s.",
+      "example": "Is it OK if I sit here?",
+      "related": ["okay"],
+      "myth": {"claim": "OK comes from the Choctaw word 'okeh'.", "truth": "False. It's an 1839 joke abbreviation for 'oll korrect'."}
+    },
+    {
+      "id": "sirloin", "word": "sirloin", "pron": "SUR-loyn", "pos": "noun",
+      "def": "the choice cut of beef from the upper loin",
+      "lit": "above the loin",
+      "origin": "French",
+      "journey": [
+        {"lang": "Old French", "form": "surloigne", "gloss": "above the loin", "date": "medieval"},
+        {"lang": "Middle English", "form": "surloine", "gloss": "the upper loin", "date": "1400s"},
+        {"lang": "English", "form": "sirloin", "gloss": "respelled after the knighthood legend", "date": "1600s"}
+      ],
+      "parts": [{"p": "sur-", "m": "above"}, {"p": "loin", "m": "loin"}],
+      "story": "Legend says a king so loved the beef that he knighted it 'Sir Loin'. The story is so good it changed the spelling — but the word is plain French sur, 'above', the loin.",
+      "example": "He ordered the sirloin, medium rare.",
+      "related": ["surface", "surname", "loin"],
+      "myth": {"claim": "A king knighted a joint of beef, dubbing it 'Sir Loin'.", "truth": "False. It's French surloigne, 'above the loin'."}
+    },
+
+    {
+      "id": "avocado", "word": "avocado", "pron": "av-uh-KAH-doh", "pos": "noun",
+      "def": "a pear-shaped fruit with creamy green flesh",
+      "lit": "testicle",
+      "origin": "Nahuatl",
+      "journey": [
+        {"lang": "Nahuatl", "form": "āhuacatl", "gloss": "avocado; also slang for testicle", "date": "pre-1500s"},
+        {"lang": "Spanish", "form": "aguacate", "gloss": "avocado", "date": "1500s"},
+        {"lang": "Spanish", "form": "avocado", "gloss": "reshaped to look like 'advocate'", "date": "1600s"},
+        {"lang": "English", "form": "avocado", "gloss": "avocado", "date": "1760s"}
+      ],
+      "parts": [],
+      "story": "The Aztec word for the fruit, āhuacatl, also served as slang for testicles — they hang in pairs. Spanish speakers reshaped it into avocado, which already meant 'lawyer'.",
+      "example": "She mashed an avocado onto her toast.",
+      "related": ["guacamole (āhuacatl + molli, sauce)"]
+    },
+    {
+      "id": "chocolate", "word": "chocolate", "pron": "CHOK-lit", "pos": "noun",
+      "def": "a sweet food made from roasted cacao seeds",
+      "lit": "a cacao drink",
+      "origin": "Nahuatl",
+      "journey": [
+        {"lang": "Nahuatl", "form": "chocolatl (form debated)", "gloss": "a drink made from cacao", "date": "pre-1500s"},
+        {"lang": "Spanish", "form": "chocolate", "gloss": "the drink", "date": "1500s"},
+        {"lang": "English", "form": "chocolate", "gloss": "a drink; later the solid sweet", "date": "1600s"}
+      ],
+      "parts": [],
+      "story": "For its first centuries chocolate was a drink — bitter, frothy, often spiced with chilli. Scholars still argue about its exact Nahuatl form: an honest open case.",
+      "example": "He hid the last bar of chocolate.",
+      "related": ["cacao", "cocoa"]
+    },
+    {
+      "id": "tomato", "word": "tomato", "pron": "tuh-MAH-toh", "pos": "noun",
+      "def": "a red, juicy fruit eaten as a vegetable",
+      "lit": "swelling fruit",
+      "origin": "Nahuatl",
+      "journey": [
+        {"lang": "Nahuatl", "form": "tomatl", "gloss": "tomato", "date": "pre-1500s"},
+        {"lang": "Spanish", "form": "tomate", "gloss": "tomato", "date": "1500s"},
+        {"lang": "English", "form": "tomate", "gloss": "tomato", "date": "1600s"},
+        {"lang": "English", "form": "tomato", "gloss": "respelled to match potato", "date": "1750s"}
+      ],
+      "parts": [],
+      "story": "English first borrowed it as tomate, like Spanish. It was later reshaped to rhyme with potato — itself from Taíno batata.",
+      "example": "The tomatoes ripened on the windowsill.",
+      "related": ["tomatillo"]
+    },
+    {
+      "id": "tycoon", "word": "tycoon", "pron": "tye-KOON", "pos": "noun",
+      "def": "a wealthy, powerful businessperson",
+      "lit": "great lord",
+      "origin": "Japanese",
+      "journey": [
+        {"lang": "Chinese", "form": "tai + kiun", "gloss": "great + lord", "date": "ancient"},
+        {"lang": "Japanese", "form": "taikun", "gloss": "title used for the shogun with foreigners", "date": "1850s"},
+        {"lang": "English", "form": "tycoon", "gloss": "the shogun; nickname for Abraham Lincoln", "date": "1857"},
+        {"lang": "English", "form": "tycoon", "gloss": "business magnate", "date": "1920s"}
+      ],
+      "parts": [{"p": "tai", "m": "great"}, {"p": "kun", "m": "lord, prince"}],
+      "story": "Japan's shogun was styled 'taikun' in dealings with foreign diplomats. Lincoln's secretaries jokingly called their boss 'the Tycoon', and the title later passed to the barons of business.",
+      "example": "The shipping tycoon owned three islands.",
+      "related": []
+    },
+    {
+      "id": "ketchup", "word": "ketchup", "pron": "KECH-up", "pos": "noun",
+      "def": "a tomato sauce",
+      "lit": "fish brine",
+      "origin": "Hokkien",
+      "journey": [
+        {"lang": "Hokkien Chinese", "form": "kê-tsiap", "gloss": "brine of pickled fish", "date": "1600s"},
+        {"lang": "Malay", "form": "kecap", "gloss": "fish or soy sauce", "date": "1600s"},
+        {"lang": "English", "form": "catchup / ketchup", "gloss": "a spiced sauce", "date": "1690s"},
+        {"lang": "English", "form": "tomato ketchup", "gloss": "the red version", "date": "1800s"}
+      ],
+      "parts": [],
+      "story": "Ketchup began as a fermented fish sauce in southern China. British sailors brought the idea home and tried it with mushrooms, walnuts and oysters before tomatoes won.",
+      "example": "Pass the ketchup, please.",
+      "related": ["Malay kecap"]
+    },
+    {
+      "id": "amok", "word": "amok", "pron": "uh-MUK", "pos": "adverb",
+      "def": "in a frenzied, out-of-control way (usually 'run amok')",
+      "lit": "attacking furiously",
+      "origin": "Malay",
+      "journey": [
+        {"lang": "Malay", "form": "amuk", "gloss": "attacking in a frenzy", "date": "medieval"},
+        {"lang": "Portuguese", "form": "amouco", "gloss": "a frenzied fighter", "date": "1500s"},
+        {"lang": "English", "form": "run amuck", "gloss": "to rush about in a frenzy", "date": "1670s"}
+      ],
+      "parts": [],
+      "story": "European traders in Southeast Asia described warriors who charged in a fearless frenzy. Today it's mostly toddlers and puppies who run amok.",
+      "example": "The goats ran amok in the vegetable garden.",
+      "related": []
+    },
+    {
+      "id": "robot", "word": "robot", "pron": "ROH-bot", "pos": "noun",
+      "def": "a machine that can carry out complex actions automatically",
+      "lit": "forced labour",
+      "origin": "Czech",
+      "journey": [
+        {"lang": "Old Church Slavonic", "form": "rabota", "gloss": "servitude", "date": "medieval"},
+        {"lang": "Czech", "form": "robota", "gloss": "forced labour, drudgery", "date": "medieval"},
+        {"lang": "Czech", "form": "robot", "gloss": "an artificial worker, in Karel Čapek's play R.U.R.", "date": "1920"},
+        {"lang": "English", "form": "robot", "gloss": "robot", "date": "1923"}
+      ],
+      "parts": [],
+      "story": "Writer Karel Čapek needed a name for the artificial workers in his play; his brother Josef suggested 'roboti', from robota, drudgery. German Arbeit, 'work', is a distant cousin.",
+      "example": "A robot vacuum bumped into my foot.",
+      "related": ["German Arbeit (work)", "robotics"]
+    },
+    {
+      "id": "boondocks", "word": "boondocks", "pron": "BOON-doks", "pos": "noun",
+      "def": "remote, rough or isolated country",
+      "lit": "mountains",
+      "origin": "Tagalog",
+      "journey": [
+        {"lang": "Tagalog", "form": "bundok", "gloss": "mountain", "date": "traditional"},
+        {"lang": "American English", "form": "boondocks", "gloss": "rough backcountry (US military slang)", "date": "early 1900s"},
+        {"lang": "American English", "form": "the boonies", "gloss": "the middle of nowhere", "date": "1960s"}
+      ],
+      "parts": [],
+      "story": "American soldiers in the Philippines picked up bundok, 'mountain', for the wild interior. It came home as boondocks — any place far from civilisation.",
+      "example": "They bought a cabin out in the boondocks.",
+      "related": ["boonies"]
+    },
+
+    {
+      "id": "sesquipedalian", "word": "sesquipedalian", "pron": "ses-kwih-pih-DAY-lee-un", "pos": "adjective",
+      "def": "(of a word) very long; given to using long words",
+      "lit": "a foot and a half long",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "sesquipedalis", "gloss": "a foot and a half long", "date": "classical"},
+        {"lang": "Latin", "form": "sesquipedalia verba", "gloss": "Horace mocks 'foot-and-a-half-long words'", "date": "c. 19 BC"},
+        {"lang": "English", "form": "sesquipedalian", "gloss": "long-worded", "date": "1650s"}
+      ],
+      "parts": [{"p": "sesqui-", "m": "one and a half"}, {"p": "ped-", "m": "foot"}, {"p": "-alian", "m": "relating to"}],
+      "story": "The Roman poet Horace advised writers to avoid 'words a foot and a half long'. The word for long words is, of course, itself a very long word.",
+      "example": "His sesquipedalian prose needed a dictionary at hand.",
+      "related": ["pedestrian", "pedal", "sesquicentennial"]
+    },
+    {
+      "id": "defenestration", "word": "defenestration", "pron": "dee-fen-uh-STRAY-shun", "pos": "noun",
+      "def": "the act of throwing someone out of a window",
+      "lit": "out-of-window-ing",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "de- + fenestra", "gloss": "out of + window", "date": "classical"},
+        {"lang": "Modern Latin", "form": "defenestratio", "gloss": "coined after the Defenestration of Prague", "date": "1618"},
+        {"lang": "English", "form": "defenestration", "gloss": "throwing out of a window", "date": "1620"}
+      ],
+      "parts": [{"p": "de-", "m": "out of, down from"}, {"p": "fenestr-", "m": "window"}, {"p": "-ation", "m": "the act of"}],
+      "story": "In 1618 Protestant nobles in Prague threw two imperial officials and a secretary out of a castle window. All three survived. The event helped trigger the Thirty Years' War — and gave us this gloriously specific word.",
+      "example": "He joked about the defenestration of his old laptop.",
+      "related": ["German Fenster (window)", "fenestration"]
+    },
+    {
+      "id": "mellifluous", "word": "mellifluous", "pron": "meh-LIF-loo-us", "pos": "adjective",
+      "def": "(of a sound or voice) sweet and smooth",
+      "lit": "honey-flowing",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "mel + fluere", "gloss": "honey + to flow", "date": "classical"},
+        {"lang": "Late Latin", "form": "mellifluus", "gloss": "flowing with honey", "date": "late antiquity"},
+        {"lang": "English", "form": "mellifluous", "gloss": "sweetly flowing", "date": "1400s"}
+      ],
+      "parts": [{"p": "mel-", "m": "honey"}, {"p": "flu-", "m": "to flow"}, {"p": "-ous", "m": "full of"}],
+      "story": "A mellifluous voice pours like honey. The same honey root hides in molasses ('honey-like') and even mildew — Old English for 'honeydew'.",
+      "example": "The narrator had a deep, mellifluous voice.",
+      "related": ["fluid", "fluent", "influence", "mellifluence"]
+    },
+    {
+      "id": "lugubrious", "word": "lugubrious", "pron": "luh-GOO-bree-us", "pos": "adjective",
+      "def": "looking or sounding sad and dismal",
+      "lit": "mourning",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "lugere", "gloss": "to mourn", "date": "classical"},
+        {"lang": "Latin", "form": "lugubris", "gloss": "mournful", "date": "classical"},
+        {"lang": "English", "form": "lugubrious", "gloss": "dismal, gloomy", "date": "1600s"}
+      ],
+      "parts": [{"p": "lug-", "m": "to mourn"}, {"p": "-ubrious", "m": "full of"}],
+      "story": "Lugubrious things are fit for a funeral. Today it's often used playfully, for a basset hound's face or a cello's lament.",
+      "example": "The basset hound gave us a lugubrious look.",
+      "related": []
+    },
+    {
+      "id": "pusillanimous", "word": "pusillanimous", "pron": "pyoo-sih-LAN-ih-mus", "pos": "adjective",
+      "def": "lacking courage; timid",
+      "lit": "small-souled",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Greek", "form": "mikropsykhos", "gloss": "small-souled", "date": "classical"},
+        {"lang": "Late Latin", "form": "pusillanimis", "gloss": "translation of the Greek", "date": "late antiquity"},
+        {"lang": "English", "form": "pusillanimous", "gloss": "cowardly", "date": "1400s"}
+      ],
+      "parts": [{"p": "pusill-", "m": "very small"}, {"p": "anim-", "m": "spirit, soul"}, {"p": "-ous", "m": "full of"}],
+      "story": "Its opposite is magnanimous — 'great-souled'. One spirit is tiny, the other huge. Animal and animate share that anim-, the breath of life.",
+      "example": "The pusillanimous committee postponed the decision again.",
+      "related": ["magnanimous", "animate", "unanimous"]
+    },
+    {
+      "id": "quintessence", "word": "quintessence", "pron": "kwin-TES-ens", "pos": "noun",
+      "def": "the most perfect example of something",
+      "lit": "fifth essence",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Ancient Greek", "form": "pemptē ousia", "gloss": "fifth substance (aether)", "date": "classical"},
+        {"lang": "Medieval Latin", "form": "quinta essentia", "gloss": "fifth essence", "date": "medieval"},
+        {"lang": "English", "form": "quintessence", "gloss": "the purest essence", "date": "early 1400s"}
+      ],
+      "parts": [{"p": "quint-", "m": "fifth"}, {"p": "essence", "m": "being, substance"}],
+      "story": "Ancient thinkers counted four elements — earth, water, air, fire — plus a fifth, the aether, from which the stars were made. Alchemists hunted for it. It became a word for the purest form of anything.",
+      "example": "The cottage was the quintessence of cosiness.",
+      "related": ["quintet", "essence", "essential"]
+    },
+    {
+      "id": "susurrus", "word": "susurrus", "pron": "soo-SUR-us", "pos": "noun",
+      "def": "a soft whispering or rustling sound",
+      "lit": "a whisper",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "susurrus", "gloss": "whisper, murmur, hum", "date": "classical"},
+        {"lang": "English", "form": "susurration", "gloss": "whispering", "date": "1400s"},
+        {"lang": "English", "form": "susurrus", "gloss": "a soft rustle", "date": "1800s"}
+      ],
+      "parts": [],
+      "story": "Say it slowly — susurrus — and you hear it. It's onomatopoeia: the word whispers what it means, like leaves in a breeze.",
+      "example": "A susurrus of voices filled the gallery.",
+      "related": ["susurration"]
+    },
+    {
+      "id": "apricity", "word": "apricity", "pron": "uh-PRIS-ih-tee", "pos": "noun",
+      "def": "the warmth of the sun in winter",
+      "lit": "sunniness",
+      "origin": "Latin",
+      "journey": [
+        {"lang": "Latin", "form": "apricus", "gloss": "warmed by the sun", "date": "classical"},
+        {"lang": "Latin", "form": "apricitas", "gloss": "sunniness", "date": "classical"},
+        {"lang": "English", "form": "apricity", "gloss": "listed in Henry Cockeram's dictionary", "date": "1623"}
+      ],
+      "parts": [{"p": "apric-", "m": "sun-warmed"}, {"p": "-ity", "m": "quality of"}],
+      "story": "A word almost no one used for 400 years, now rescued by word-lovers. Despite appearances, apricot is no relation — it's from Latin praecoquum, 'early-ripening'.",
+      "example": "We sat on the bench, soaking up the apricity.",
+      "related": ["apricate (to bask in the sun)"]
+    }
+  ]
+}

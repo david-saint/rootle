@@ -1,0 +1,4 @@
+// Shared build settings. The API key lives in Secrets.xcconfig, which is git-ignored
+// and written by scripts/write_secrets.sh.
+ROOTLE_ANTHROPIC_KEY =
+#include? "Secrets.xcconfig"

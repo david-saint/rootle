@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A14A3D58E5815565A9BBD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471A2A2494FFE55C2877193 /* Assets.xcassets */; };
+		044875329574733FD6B82791 /* FolderIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91FFBA7E2A8FD64376CDAF2 /* FolderIO.swift */; };
+		0758B4D1638265BC3CAF0662 /* DigSiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F9F5727A0E3BD8A631420 /* DigSiteView.swift */; };
+		092EA9FB63F9E285E729DBF9 /* ExerciseViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7450FF9A4172E2E63C17E038 /* ExerciseViews.swift */; };
+		17BB429A98610D36D1C90016 /* Lexicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972D554E1BAB2209A9C4D0E /* Lexicon.swift */; };
+		1C1F885404D324041EC73CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471A2A2494FFE55C2877193 /* Assets.xcassets */; };
+		1CDE9C3A8036D2F9262AAA1D /* RootleWidget-iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C6A30C47238B91119EF81845 /* RootleWidget-iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1ECBF1059189F0FA093B67A4 /* FolderIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91FFBA7E2A8FD64376CDAF2 /* FolderIO.swift */; };
+		204316F74EED1937E3C95473 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599D5F73F314BFB77BD6203 /* GameStore.swift */; };
+		21F996CCF1E6DF94C50FD384 /* Lexicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972D554E1BAB2209A9C4D0E /* Lexicon.swift */; };
+		230A8719CC16494C11A241C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471A2A2494FFE55C2877193 /* Assets.xcassets */; };
+		247929AF8E2005B66377C311 /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90F527ADBE48CF797B98B1 /* Daily.swift */; };
+		2637890A815C8F81D6A64A34 /* CloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E8D79879CF186D1017BEA7 /* CloudSync.swift */; };
+		26FA1C238A1623D6CAF20F2A /* Lexicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972D554E1BAB2209A9C4D0E /* Lexicon.swift */; };
+		285BA972D11D778123EB38CD /* lexicon-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CB0956959C35461F777E0FD /* lexicon-2.json */; };
+		292FA9E7B1668DA088BEE50B /* GroveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C1611CE59BB6A8842EB6B /* GroveView.swift */; };
+		2AD0B0C895F98206874B5F23 /* lexicon-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 61CC7AF78B8ADFD3A6DEF357 /* lexicon-1.json */; };
+		2CF02AE52F63B2250075DFDD /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E217DF1E52C96F4054EAEA0 /* Lesson.swift */; };
+		2F0009228CAB5986C6214848 /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438394B2CC9966EF503C9840 /* WordDetailView.swift */; };
+		33CAB61500689579A8E368D4 /* RootleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C35C4AD6B2479F7DBD03E6 /* RootleApp.swift */; };
+		3535B4EF5CADD0CB72322C14 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966F78085AAF7E8FABEABC1 /* Theme.swift */; };
+		3550EBAB0D2563B255FDB45E /* WordForge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721D46C377B01B02170B018 /* WordForge.swift */; };
+		374841958D3B573DAE83F811 /* GuessCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CD5B5DEFEC8269D361A50 /* GuessCard.swift */; };
+		37B33C6913DC963E56CC9896 /* LexiconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474439FCC96A0D9AAE9447A9 /* LexiconView.swift */; };
+		39AF73D836DB3573AD48011A /* RootleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C35C4AD6B2479F7DBD03E6 /* RootleApp.swift */; };
+		433786DE166FC331EF5888E2 /* RootleWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A952F92975E2B991532E10 /* RootleWidgets.swift */; };
+		44CD0A8E500F832AAAEDA381 /* lexicon-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CB0956959C35461F777E0FD /* lexicon-2.json */; };
+		4621C67AA663208A05BCA3E8 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F0B4D371A6731594B53BD8 /* Reminders.swift */; };
+		55DE4A5E13227B1AE0FDE277 /* CloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E8D79879CF186D1017BEA7 /* CloudSync.swift */; };
+		577F8AC688C2BE584E651D52 /* lexicon-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 61CC7AF78B8ADFD3A6DEF357 /* lexicon-1.json */; };
+		5D369716F2F4E8170F68FB41 /* lexicon-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CB0956959C35461F777E0FD /* lexicon-2.json */; };
+		5DDAA93DA947E7CEF1BCBDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471A2A2494FFE55C2877193 /* Assets.xcassets */; };
+		5E55116E58A98EA753AD4F42 /* ProgressState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F38A846F15E47E15357409 /* ProgressState.swift */; };
+		63D71BA3F52BE38B258D4C08 /* Lexicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972D554E1BAB2209A9C4D0E /* Lexicon.swift */; };
+		682DD9CFF7A4D68647BB9FBA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966F78085AAF7E8FABEABC1 /* Theme.swift */; };
+		6AE1B4B3CFBD28AAA3D6C50E /* lexicon-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CB0956959C35461F777E0FD /* lexicon-2.json */; };
+		6E82202DB89770EBD26EA19B /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90F527ADBE48CF797B98B1 /* Daily.swift */; };
+		6FB1E148445A883FB8699B80 /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90F527ADBE48CF797B98B1 /* Daily.swift */; };
+		703886A3DEB92852D0404905 /* ProgressState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F38A846F15E47E15357409 /* ProgressState.swift */; };
+		737ED683A428F07C19C0F672 /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438394B2CC9966EF503C9840 /* WordDetailView.swift */; };
+		7452D75766ED5B7F592C0F1B /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E023A269DFD7B5A5B7ABBB5 /* Components.swift */; };
+		76D796D9D292FBE4E91C51E0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966F78085AAF7E8FABEABC1 /* Theme.swift */; };
+		76E0F1C1EADF6FAE9AB8F635 /* LexiconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474439FCC96A0D9AAE9447A9 /* LexiconView.swift */; };
+		78189F2AEDC3413F5B1849A2 /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90F527ADBE48CF797B98B1 /* Daily.swift */; };
+		7EADFD3EE1FF98F5F37DC862 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E023A269DFD7B5A5B7ABBB5 /* Components.swift */; };
+		89F1A3B3746B0C5D9B08F982 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599D5F73F314BFB77BD6203 /* GameStore.swift */; };
+		8A7A7E66A9C137D446FCEF1D /* RootleWidget-macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AF5236956682E47F63C06C44 /* RootleWidget-macOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B99D1E4F4A25B44D39A5691 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDC1CE02BA7D47C35FA73A /* LessonView.swift */; };
+		8FAAF0345951C0F2F44E3B31 /* LessonCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CAE80A7670BDCCAB1D713B /* LessonCompleteView.swift */; };
+		91AC14D5463022E8555DA248 /* MacShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B22D899A7D2D15D8585934 /* MacShell.swift */; };
+		972AE2F3D9A4EDB56AC4D89B /* GuessCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CD5B5DEFEC8269D361A50 /* GuessCard.swift */; };
+		9E8FC345A6A51279B10F7B8C /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F0B4D371A6731594B53BD8 /* Reminders.swift */; };
+		A779E81854626CC605CE42A9 /* RootleWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A952F92975E2B991532E10 /* RootleWidgets.swift */; };
+		AA3A2BCCDE0856F441C3A13E /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDC1CE02BA7D47C35FA73A /* LessonView.swift */; };
+		AADADC66BCF0BD9E73A6F8FB /* ExerciseViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7450FF9A4172E2E63C17E038 /* ExerciseViews.swift */; };
+		AF43DAF36316D5C24A1B45A1 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E217DF1E52C96F4054EAEA0 /* Lesson.swift */; };
+		B3ECA18FFEDBCFC39491BF3A /* lexicon-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 61CC7AF78B8ADFD3A6DEF357 /* lexicon-1.json */; };
+		BFE8DFC279A5EA2E1CD5EA86 /* LessonCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CAE80A7670BDCCAB1D713B /* LessonCompleteView.swift */; };
+		CC3364262627FADCAE3DB145 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E96BC9084E89B2426DB04F6 /* HomeView.swift */; };
+		D0B3A3A6D0712B6FCC92E223 /* ProgressState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F38A846F15E47E15357409 /* ProgressState.swift */; };
+		E0E32A5CBD8C42318EFEFED6 /* DigSiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F9F5727A0E3BD8A631420 /* DigSiteView.swift */; };
+		E43386986851040E565C0DEA /* GroveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C1611CE59BB6A8842EB6B /* GroveView.swift */; };
+		E43F0812D3784FB6EFA3A970 /* WordForge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721D46C377B01B02170B018 /* WordForge.swift */; };
+		EA69045C9DD7DEA5F1947EE4 /* lexicon-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 61CC7AF78B8ADFD3A6DEF357 /* lexicon-1.json */; };
+		F1B0C3554905E9911BDEA050 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E96BC9084E89B2426DB04F6 /* HomeView.swift */; };
+		F521315734B44283E7800959 /* ProgressState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F38A846F15E47E15357409 /* ProgressState.swift */; };
+		F68572F050FE614DB3F2ED6C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966F78085AAF7E8FABEABC1 /* Theme.swift */; };
+		FEF7083A7AF2C74A17E0BED5 /* MacShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B22D899A7D2D15D8585934 /* MacShell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B07DE594D9D5DBCDA2ED9EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F64F844F1E10CECE0E1BDDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D150AD526DFD4853DE77C979;
+			remoteInfo = "RootleWidget-iOS";
+		};
+		C7C27E84222D63BD12370F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F64F844F1E10CECE0E1BDDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CD688C31B7AF449BA05B3B5;
+			remoteInfo = "RootleWidget-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		553478033493A0F11DDD6402 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8A7A7E66A9C137D446FCEF1D /* RootleWidget-macOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4BB4732BD728228BA4C9AE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1CDE9C3A8036D2F9262AAA1D /* RootleWidget-iOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00B22D899A7D2D15D8585934 /* MacShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacShell.swift; sourceTree = "<group>"; };
+		0E4815B147C022A61BAA9D22 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		188CD5B5DEFEC8269D361A50 /* GuessCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessCard.swift; sourceTree = "<group>"; };
+		1972D554E1BAB2209A9C4D0E /* Lexicon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lexicon.swift; sourceTree = "<group>"; };
+		1E023A269DFD7B5A5B7ABBB5 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		21C35C4AD6B2479F7DBD03E6 /* RootleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootleApp.swift; sourceTree = "<group>"; };
+		22A4FFCCC3486E81716815C4 /* Rootle-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rootle-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E8D79879CF186D1017BEA7 /* CloudSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudSync.swift; sourceTree = "<group>"; };
+		2A5F9F5727A0E3BD8A631420 /* DigSiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigSiteView.swift; sourceTree = "<group>"; };
+		4357086506CC3D070F020A3F /* Rootle-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Rootle-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		438394B2CC9966EF503C9840 /* WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailView.swift; sourceTree = "<group>"; };
+		474439FCC96A0D9AAE9447A9 /* LexiconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexiconView.swift; sourceTree = "<group>"; };
+		521C1611CE59BB6A8842EB6B /* GroveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroveView.swift; sourceTree = "<group>"; };
+		5E217DF1E52C96F4054EAEA0 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		61CC7AF78B8ADFD3A6DEF357 /* lexicon-1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lexicon-1.json"; sourceTree = "<group>"; };
+		63F38A846F15E47E15357409 /* ProgressState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressState.swift; sourceTree = "<group>"; };
+		65F0B4D371A6731594B53BD8 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		6966F78085AAF7E8FABEABC1 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		6CB0956959C35461F777E0FD /* lexicon-2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lexicon-2.json"; sourceTree = "<group>"; };
+		6E96BC9084E89B2426DB04F6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7450FF9A4172E2E63C17E038 /* ExerciseViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViews.swift; sourceTree = "<group>"; };
+		9721D46C377B01B02170B018 /* WordForge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordForge.swift; sourceTree = "<group>"; };
+		A91FFBA7E2A8FD64376CDAF2 /* FolderIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderIO.swift; sourceTree = "<group>"; };
+		A9CDC1CE02BA7D47C35FA73A /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		AF5236956682E47F63C06C44 /* RootleWidget-macOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RootleWidget-macOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B471A2A2494FFE55C2877193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C599D5F73F314BFB77BD6203 /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		C6A30C47238B91119EF81845 /* RootleWidget-iOS.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = "RootleWidget-iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CAE80A7670BDCCAB1D713B /* LessonCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCompleteView.swift; sourceTree = "<group>"; };
+		EF90F527ADBE48CF797B98B1 /* Daily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily.swift; sourceTree = "<group>"; };
+		F7A952F92975E2B991532E10 /* RootleWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootleWidgets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A10F6802D58DDF11B8652D2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B471A2A2494FFE55C2877193 /* Assets.xcassets */,
+				1FDF8BF6CF0E46ACBEE81B28 /* Design */,
+				8936B6EE45A3843BF893DAE0 /* Engine */,
+				7AFD038A33ED51573DC9E4DA /* Model */,
+				A6DC54F673014AF7BE97FF8B /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1FDF8BF6CF0E46ACBEE81B28 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				6966F78085AAF7E8FABEABC1 /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		2EEA50986C837A64047B5B43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E023A269DFD7B5A5B7ABBB5 /* Components.swift */,
+				2A5F9F5727A0E3BD8A631420 /* DigSiteView.swift */,
+				7450FF9A4172E2E63C17E038 /* ExerciseViews.swift */,
+				521C1611CE59BB6A8842EB6B /* GroveView.swift */,
+				188CD5B5DEFEC8269D361A50 /* GuessCard.swift */,
+				6E96BC9084E89B2426DB04F6 /* HomeView.swift */,
+				C9CAE80A7670BDCCAB1D713B /* LessonCompleteView.swift */,
+				A9CDC1CE02BA7D47C35FA73A /* LessonView.swift */,
+				474439FCC96A0D9AAE9447A9 /* LexiconView.swift */,
+				00B22D899A7D2D15D8585934 /* MacShell.swift */,
+				438394B2CC9966EF503C9840 /* WordDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AFD038A33ED51573DC9E4DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1972D554E1BAB2209A9C4D0E /* Lexicon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8936B6EE45A3843BF893DAE0 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				EF90F527ADBE48CF797B98B1 /* Daily.swift */,
+				63F38A846F15E47E15357409 /* ProgressState.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		8AF5EE37E5F7F59DB17D7B54 = {
+			isa = PBXGroup;
+			children = (
+				C56994A17C08E55FB6E77443 /* App */,
+				F78154BEE9C580F220DC6BA0 /* Config */,
+				1A10F6802D58DDF11B8652D2 /* Shared */,
+				D352CA985D606F6DDF2E9370 /* Widget */,
+				A34DAFB27188AA05EA70CEBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C04CCD2AE175D68D0D9202 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				25E8D79879CF186D1017BEA7 /* CloudSync.swift */,
+				A91FFBA7E2A8FD64376CDAF2 /* FolderIO.swift */,
+				C599D5F73F314BFB77BD6203 /* GameStore.swift */,
+				5E217DF1E52C96F4054EAEA0 /* Lesson.swift */,
+				65F0B4D371A6731594B53BD8 /* Reminders.swift */,
+				9721D46C377B01B02170B018 /* WordForge.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		A34DAFB27188AA05EA70CEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4357086506CC3D070F020A3F /* Rootle-iOS.app */,
+				22A4FFCCC3486E81716815C4 /* Rootle-macOS.app */,
+				C6A30C47238B91119EF81845 /* RootleWidget-iOS.appex */,
+				AF5236956682E47F63C06C44 /* RootleWidget-macOS.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DC54F673014AF7BE97FF8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61CC7AF78B8ADFD3A6DEF357 /* lexicon-1.json */,
+				6CB0956959C35461F777E0FD /* lexicon-2.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C56994A17C08E55FB6E77443 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				21C35C4AD6B2479F7DBD03E6 /* RootleApp.swift */,
+				A1C04CCD2AE175D68D0D9202 /* Engine */,
+				2EEA50986C837A64047B5B43 /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D352CA985D606F6DDF2E9370 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				F7A952F92975E2B991532E10 /* RootleWidgets.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		F78154BEE9C580F220DC6BA0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0E4815B147C022A61BAA9D22 /* Base.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CD688C31B7AF449BA05B3B5 /* RootleWidget-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028084DB2E507780938AAF77 /* Build configuration list for PBXNativeTarget "RootleWidget-macOS" */;
+			buildPhases = (
+				1B548A532F811184FE1E9529 /* Sources */,
+				247C89B4E83DDB96137CACD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RootleWidget-macOS";
+			packageProductDependencies = (
+			);
+			productName = "RootleWidget-macOS";
+			productReference = AF5236956682E47F63C06C44 /* RootleWidget-macOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B7E9D007B5B3F9D47AAC2CCC /* Rootle-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B62089835170C1F8E2C920 /* Build configuration list for PBXNativeTarget "Rootle-iOS" */;
+			buildPhases = (
+				EC347F9FF143ACBAD75791D4 /* Sources */,
+				4AD83545027680B53A3D8DF8 /* Resources */,
+				AC4BB4732BD728228BA4C9AE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F80842E84F7DD9E38A1B9AB /* PBXTargetDependency */,
+			);
+			name = "Rootle-iOS";
+			packageProductDependencies = (
+			);
+			productName = "Rootle-iOS";
+			productReference = 4357086506CC3D070F020A3F /* Rootle-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D150AD526DFD4853DE77C979 /* RootleWidget-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D82FE1EE19D40495DA1378 /* Build configuration list for PBXNativeTarget "RootleWidget-iOS" */;
+			buildPhases = (
+				A1335F3974F1B7EF454DB74A /* Sources */,
+				510A70E8DB63E7C63E36DF6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RootleWidget-iOS";
+			packageProductDependencies = (
+			);
+			productName = "RootleWidget-iOS";
+			productReference = C6A30C47238B91119EF81845 /* RootleWidget-iOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E29C9D3EE92C6A4F4D73E902 /* Rootle-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B9953548EC27F90C0DE591 /* Build configuration list for PBXNativeTarget "Rootle-macOS" */;
+			buildPhases = (
+				7F84F82EB16464C2BF715F20 /* Sources */,
+				0DE4A69A3A1D27CDA36A9722 /* Resources */,
+				553478033493A0F11DDD6402 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624CADE611045C2732BA1DCF /* PBXTargetDependency */,
+			);
+			name = "Rootle-macOS";
+			packageProductDependencies = (
+			);
+			productName = "Rootle-macOS";
+			productReference = 22A4FFCCC3486E81716815C4 /* Rootle-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F64F844F1E10CECE0E1BDDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9CD688C31B7AF449BA05B3B5 = {
+						DevelopmentTeam = 62LTV4PK7X;
+						ProvisioningStyle = Automatic;
+					};
+					B7E9D007B5B3F9D47AAC2CCC = {
+						DevelopmentTeam = 62LTV4PK7X;
+						ProvisioningStyle = Automatic;
+					};
+					D150AD526DFD4853DE77C979 = {
+						DevelopmentTeam = 62LTV4PK7X;
+						ProvisioningStyle = Automatic;
+					};
+					E29C9D3EE92C6A4F4D73E902 = {
+						DevelopmentTeam = 62LTV4PK7X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFEEBEAEDCACFF2527932C9E /* Build configuration list for PBXProject "Rootle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8AF5EE37E5F7F59DB17D7B54;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A34DAFB27188AA05EA70CEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E9D007B5B3F9D47AAC2CCC /* Rootle-iOS */,
+				D150AD526DFD4853DE77C979 /* RootleWidget-iOS */,
+				E29C9D3EE92C6A4F4D73E902 /* Rootle-macOS */,
+				9CD688C31B7AF449BA05B3B5 /* RootleWidget-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DE4A69A3A1D27CDA36A9722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A14A3D58E5815565A9BBD3 /* Assets.xcassets in Resources */,
+				577F8AC688C2BE584E651D52 /* lexicon-1.json in Resources */,
+				5D369716F2F4E8170F68FB41 /* lexicon-2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247C89B4E83DDB96137CACD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDAA93DA947E7CEF1BCBDB0 /* Assets.xcassets in Resources */,
+				2AD0B0C895F98206874B5F23 /* lexicon-1.json in Resources */,
+				44CD0A8E500F832AAAEDA381 /* lexicon-2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD83545027680B53A3D8DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230A8719CC16494C11A241C7 /* Assets.xcassets in Resources */,
+				B3ECA18FFEDBCFC39491BF3A /* lexicon-1.json in Resources */,
+				6AE1B4B3CFBD28AAA3D6C50E /* lexicon-2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510A70E8DB63E7C63E36DF6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1F885404D324041EC73CED /* Assets.xcassets in Resources */,
+				EA69045C9DD7DEA5F1947EE4 /* lexicon-1.json in Resources */,
+				285BA972D11D778123EB38CD /* lexicon-2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B548A532F811184FE1E9529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247929AF8E2005B66377C311 /* Daily.swift in Sources */,
+				21F996CCF1E6DF94C50FD384 /* Lexicon.swift in Sources */,
+				F521315734B44283E7800959 /* ProgressState.swift in Sources */,
+				A779E81854626CC605CE42A9 /* RootleWidgets.swift in Sources */,
+				76D796D9D292FBE4E91C51E0 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F84F82EB16464C2BF715F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DE4A5E13227B1AE0FDE277 /* CloudSync.swift in Sources */,
+				7EADFD3EE1FF98F5F37DC862 /* Components.swift in Sources */,
+				6E82202DB89770EBD26EA19B /* Daily.swift in Sources */,
+				0758B4D1638265BC3CAF0662 /* DigSiteView.swift in Sources */,
+				092EA9FB63F9E285E729DBF9 /* ExerciseViews.swift in Sources */,
+				1ECBF1059189F0FA093B67A4 /* FolderIO.swift in Sources */,
+				204316F74EED1937E3C95473 /* GameStore.swift in Sources */,
+				E43386986851040E565C0DEA /* GroveView.swift in Sources */,
+				972AE2F3D9A4EDB56AC4D89B /* GuessCard.swift in Sources */,
+				F1B0C3554905E9911BDEA050 /* HomeView.swift in Sources */,
+				AF43DAF36316D5C24A1B45A1 /* Lesson.swift in Sources */,
+				BFE8DFC279A5EA2E1CD5EA86 /* LessonCompleteView.swift in Sources */,
+				AA3A2BCCDE0856F441C3A13E /* LessonView.swift in Sources */,
+				17BB429A98610D36D1C90016 /* Lexicon.swift in Sources */,
+				37B33C6913DC963E56CC9896 /* LexiconView.swift in Sources */,
+				91AC14D5463022E8555DA248 /* MacShell.swift in Sources */,
+				5E55116E58A98EA753AD4F42 /* ProgressState.swift in Sources */,
+				9E8FC345A6A51279B10F7B8C /* Reminders.swift in Sources */,
+				33CAB61500689579A8E368D4 /* RootleApp.swift in Sources */,
+				3535B4EF5CADD0CB72322C14 /* Theme.swift in Sources */,
+				2F0009228CAB5986C6214848 /* WordDetailView.swift in Sources */,
+				3550EBAB0D2563B255FDB45E /* WordForge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1335F3974F1B7EF454DB74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB1E148445A883FB8699B80 /* Daily.swift in Sources */,
+				26FA1C238A1623D6CAF20F2A /* Lexicon.swift in Sources */,
+				D0B3A3A6D0712B6FCC92E223 /* ProgressState.swift in Sources */,
+				433786DE166FC331EF5888E2 /* RootleWidgets.swift in Sources */,
+				F68572F050FE614DB3F2ED6C /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC347F9FF143ACBAD75791D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2637890A815C8F81D6A64A34 /* CloudSync.swift in Sources */,
+				7452D75766ED5B7F592C0F1B /* Components.swift in Sources */,
+				78189F2AEDC3413F5B1849A2 /* Daily.swift in Sources */,
+				E0E32A5CBD8C42318EFEFED6 /* DigSiteView.swift in Sources */,
+				AADADC66BCF0BD9E73A6F8FB /* ExerciseViews.swift in Sources */,
+				044875329574733FD6B82791 /* FolderIO.swift in Sources */,
+				89F1A3B3746B0C5D9B08F982 /* GameStore.swift in Sources */,
+				292FA9E7B1668DA088BEE50B /* GroveView.swift in Sources */,
+				374841958D3B573DAE83F811 /* GuessCard.swift in Sources */,
+				CC3364262627FADCAE3DB145 /* HomeView.swift in Sources */,
+				2CF02AE52F63B2250075DFDD /* Lesson.swift in Sources */,
+				8FAAF0345951C0F2F44E3B31 /* LessonCompleteView.swift in Sources */,
+				8B99D1E4F4A25B44D39A5691 /* LessonView.swift in Sources */,
+				63D71BA3F52BE38B258D4C08 /* Lexicon.swift in Sources */,
+				76E0F1C1EADF6FAE9AB8F635 /* LexiconView.swift in Sources */,
+				FEF7083A7AF2C74A17E0BED5 /* MacShell.swift in Sources */,
+				703886A3DEB92852D0404905 /* ProgressState.swift in Sources */,
+				4621C67AA663208A05BCA3E8 /* Reminders.swift in Sources */,
+				39AF73D836DB3573AD48011A /* RootleApp.swift in Sources */,
+				682DD9CFF7A4D68647BB9FBA /* Theme.swift in Sources */,
+				737ED683A428F07C19C0F672 /* WordDetailView.swift in Sources */,
+				E43F0812D3784FB6EFA3A970 /* WordForge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		624CADE611045C2732BA1DCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CD688C31B7AF449BA05B3B5 /* RootleWidget-macOS */;
+			targetProxy = C7C27E84222D63BD12370F1B /* PBXContainerItemProxy */;
+		};
+		9F80842E84F7DD9E38A1B9AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D150AD526DFD4853DE77C979 /* RootleWidget-iOS */;
+			targetProxy = B07DE594D9D5DBCDA2ED9EAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2407CA0100ED5CE44B16A433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Support/Rootle-iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Support/Info-iOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.davidsaint.rootle;
+				PRODUCT_NAME = Rootle;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		628825CEC340CD48355A9902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Support/Rootle-macOS.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Support/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.davidsaint.rootle;
+				PRODUCT_NAME = Rootle;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		65DC4B7FFD3869CBB6D002B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Support/Widget-iOS.entitlements";
+				INFOPLIST_FILE = "Support/Widget-iOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.davidsaint.rootle.widget;
+				PRODUCT_NAME = RootleWidget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7C7917D703FB2258FE5E69E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Support/Widget-macOS.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Support/Widget-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.davidsaint.rootle.widget;
+				PRODUCT_NAME = RootleWidget;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8CC7FC3364F9FBC45F7D8C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Support/Widget-macOS.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Support/Widget-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.davidsaint.rootle.widget;
+				PRODUCT_NAME = RootleWidget;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0674EC77729CE0492C9E33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Support/Rootle-iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Support/Info-iOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.davidsaint.rootle;
+				PRODUCT_NAME = Rootle;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8562EA9130CCE69F112392E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4815B147C022A61BAA9D22 /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 62LTV4PK7X;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AEFEC380C13631AC9B3ABBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4815B147C022A61BAA9D22 /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 62LTV4PK7X;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B010EA70272EDA3D031A5E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Support/Rootle-macOS.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Support/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.davidsaint.rootle;
+				PRODUCT_NAME = Rootle;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E2B1B9E60B09FC49A07B5F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Support/Widget-iOS.entitlements";
+				INFOPLIST_FILE = "Support/Widget-iOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.davidsaint.rootle.widget;
+				PRODUCT_NAME = RootleWidget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028084DB2E507780938AAF77 /* Build configuration list for PBXNativeTarget "RootleWidget-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC7FC3364F9FBC45F7D8C8E /* Debug */,
+				7C7917D703FB2258FE5E69E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		93B62089835170C1F8E2C920 /* Build configuration list for PBXNativeTarget "Rootle-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2407CA0100ED5CE44B16A433 /* Debug */,
+				A0674EC77729CE0492C9E33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7B9953548EC27F90C0DE591 /* Build configuration list for PBXNativeTarget "Rootle-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B010EA70272EDA3D031A5E34 /* Debug */,
+				628825CEC340CD48355A9902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E8D82FE1EE19D40495DA1378 /* Build configuration list for PBXNativeTarget "RootleWidget-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B1B9E60B09FC49A07B5F11 /* Debug */,
+				65DC4B7FFD3869CBB6D002B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FFEEBEAEDCACFF2527932C9E /* Build configuration list for PBXProject "Rootle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8562EA9130CCE69F112392E /* Debug */,
+				AEFEC380C13631AC9B3ABBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F64F844F1E10CECE0E1BDDA /* Project object */;
+}
